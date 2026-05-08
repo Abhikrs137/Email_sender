@@ -1,0 +1,64 @@
+[2026-05-05 23:52:31] Connected to Gmail SMTP.
+[2026-05-05 23:52:34] Sent to Abhishek <abhikrs333@gmail.com>
+[2026-05-06 00:04:42] Connected to Gmail SMTP.
+[2026-05-06 00:04:44] Sent to Abhishek <abhikrs333@gmail.com>
+[2026-05-06 00:06:56] Connected to Gmail SMTP.
+[2026-05-06 00:06:58] Sent to Abhishek <abhikrs333@gmail.com>
+[2026-05-06 00:11:11] Connected to Gmail SMTP.
+[2026-05-06 00:11:14] Sent to Abhi <abhikrs333@gmail.com>
+[2026-05-07 09:55:02] Contacts remaining: 1362
+[2026-05-07 09:55:02] Sending up to 200 emails today (200 will be sent).
+[2026-05-07 09:55:03] Connected to Gmail SMTP.
+[2026-05-07 10:03:17] Contacts remaining: 1362
+[2026-05-07 10:03:17] Sending up to 200 emails today (200 will be sent).
+[2026-05-07 10:03:19] Connected to Gmail SMTP.
+[2026-05-07 10:03:19] Failed to send to Jayashree <jayashree.jayanth@ushur.com>: PDF attachment not found: C:\Users\abhik\Downloads\bulk_email_sender\email_sender_abhi\ashu_sharan_frontend_new.pdf
+[2026-05-07 10:03:21] Failed to send to Jayashri <jayashri@amrutsoftware.com>: PDF attachment not found: C:\Users\abhik\Downloads\bulk_email_sender\email_sender_abhi\ashu_sharan_frontend_new.pdf
+[2026-05-07 10:03:23] Failed to send to Jayati <jayati.p@keka.com>: PDF attachment not found: C:\Users\abhik\Downloads\bulk_email_sender\email_sender_abhi\ashu_sharan_frontend_new.pdf
+[2026-05-07 10:03:25] Failed to send to Jayendra <jasolanki@workforcelogiq.com>: PDF attachment not found: C:\Users\abhik\Downloads\bulk_email_sender\email_sender_abhi\ashu_sharan_frontend_new.pdf
+[2026-05-07 10:03:27] Failed to send to Jegannathan <jegannathan@isolve.global>: PDF attachment not found: C:\Users\abhik\Downloads\bulk_email_sender\email_sender_abhi\ashu_sharan_frontend_new.pdf
+[2026-05-07 10:03:29] Failed to send to Jeswin <jeswin.thomas@questionpro.com>: PDF attachment not found: C:\Users\abhik\Downloads\bulk_email_sender\email_sender_abhi\ashu_sharan_frontend_new.pdf
+[2026-05-07 10:03:31] Bulk sending stopped by user.
+[2026-05-07 10:03:31] 
+=== Done: 0 sent, 6 failed ===
+[2026-05-07 10:03:31] Remaining contacts in Excel: 1362
+[2026-05-07 10:05:03] Contacts remaining: 1362
+[2026-05-07 10:05:03] Sending up to 200 emails today (200 will be sent).
+[2026-05-07 10:05:04] Connected to Gmail SMTP.
+[2026-05-07 10:05:07] Sent to Jayashree <jayashree.jayanth@ushur.com>
+[2026-05-07 10:05:12] Sent to Jayashri <jayashri@amrutsoftware.com>
+[2026-05-07 10:05:18] Sent to Jayati <jayati.p@keka.com>
+[2026-05-07 10:05:23] Sent to Jayendra <jasolanki@workforcelogiq.com>
+[2026-05-07 10:05:28] Sent to Jegannathan <jegannathan@isolve.global>
+[2026-05-07 10:05:34] Sent to Jeswin <jeswin.thomas@questionpro.com>
+[2026-05-07 10:05:39] Sent to Jimeet <jimeet@metamorphtech.com>
+[2026-05-07 10:05:45] Sent to Jinu <jinu@m2comsys.com>
+[2026-05-07 10:05:50] Sent to Jitendra <jitendra.das@workinsync.io>
+[2026-05-07 10:05:55] Sent to Jitendra <jitendra.wankhede@anuntatech.com>
+[2026-05-07 10:06:01] Sent to Jitesh <jitesh@softnice.com>
+[2026-05-07 10:06:06] Sent to Jithesh <jithesh.v@zucisystems.com>
+[2026-05-07 10:06:11] Sent to Job <jpixentia@pixentia.com>
+[2026-05-07 10:06:17] Sent to Joe <joem@itamerica.com>
+[2026-05-07 10:06:22] Sent to Joel <joel.lobo@rtcamp.com>
+[2026-05-07 10:06:27] Sent to Johnson <johnsonk@netrovert.net>
+[2026-05-07 10:06:33] Sent to Joseph <joseph@vdartinc.com>
+[2026-05-07 10:06:38] Sent to Joshua <joshua.henry@cloudsek.com>
+[2026-05-07 10:06:44] Sent to Joshua <joshua.t@sailotech.com>
+[2026-05-07 10:06:50] Sent to Jothi <jothi.prakash@bwdesigngroup.com>
+[2026-05-07 10:06:55] Sent to Joy <joy.dupati@sierraatlantic.com>
+[2026-05-07 10:07:01] Sent to Juhi <juhi.sharma@lockstep.io>
+[2026-05-07 10:07:06] Sent to Justin <justin@near.com>
+[2026-05-07 10:07:12] Sent to Jyothendra <jyothendraar@aditiconsulting.com>
+[2026-05-07 10:07:18] Sent to Jyothsna <jyothsna.devi@kasmo.co>
+[2026-05-07 10:07:23] Sent to Jyoti <jyoti.g@commerceiq.ai>
+[2026-05-07 10:07:29] Sent to Jyoti <jgupta@otsi-usa.com>
+[2026-05-07 10:07:30] Bulk sending stopped by user.
+[2026-05-07 10:07:30] 
+=== Done: 27 sent, 0 failed ===
+[2026-05-07 10:07:30] Remaining contacts in Excel: 1335
+[2026-05-07 14:19:49] Connected to Gmail SMTP.
+[2026-05-07 14:19:52] Sent to Ashu <srivastavaashu1249@gmail.com>
+[2026-05-07 16:58:49] Connected to Gmail SMTP.
+[2026-05-07 16:58:53] Sent to Test <abhikrs333@gmail.com>
+[2026-05-07 21:19:09] Connected to Gmail SMTP.
+[2026-05-07 21:19:13] Sent to All <careers@antino.com>

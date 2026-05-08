@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Email Sender</title>
+  <style>
+    :root {
+      --bg-1: #0f172a;
+      --bg-2: #111827;
+      --bg-3: #1e293b;
+      --surface: rgba(17, 24, 39, 0.78);
+      --surface-2: rgba(15, 23, 42, 0.88);
+      --line: rgba(148, 163, 184, 0.24);
+      --line-strong: rgba(148, 163, 184, 0.38);
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #22c55e;
+      --accent-2: #16a34a;
+      --accent-soft: rgba(34, 197, 94, 0.12);
+      --danger: #f87171;
+      --danger-soft: rgba(248, 113, 113, 0.12);
+      --shadow: 0 20px 60px rgba(2, 6, 23, 0.55);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 10% 10%, #1d4ed833 0%, transparent 38%),
+        radial-gradient(circle at 80% 20%, #16a34a22 0%, transparent 40%),
+        linear-gradient(145deg, var(--bg-1), var(--bg-2) 45%, var(--bg-3));
+      color: var(--text);
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      letter-spacing: 0.01em;
+    }
+
+    main {
+      width: min(1040px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 34px 0;
+    }
+
+    .shell {
+      background: linear-gradient(160deg, var(--surface), var(--surface-2));
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      overflow: hidden;
+    }
+
+    header {
+      padding: 28px 28px 22px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent);
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 34px;
+      line-height: 1.12;
+      font-weight: 800;
+      color: #f8fafc;
+      letter-spacing: 0.01em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .content {
+      display: grid;
+      gap: 22px;
+      padding: 26px 28px 28px;
+    }
+
+    .mode-tabs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      border: 1px solid var(--line-strong);
+      border-radius: 12px;
+      background: rgba(148, 163, 184, 0.07);
+      overflow: hidden;
+    }
+
+    .mode-tabs button {
+      min-height: 50px;
+      border: 0;
+      border-right: 1px solid var(--line);
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+      transition: all 180ms ease;
+    }
+
+    .mode-tabs button:last-child {
+      border-right: 0;
+    }
+
+    .mode-tabs button:hover {
+      color: #dbeafe;
+      background: rgba(148, 163, 184, 0.08);
+    }
+
+    .mode-tabs button.active {
+      background: linear-gradient(120deg, #16653488, #16a34a66);
+      color: #ecfdf5;
+      box-shadow: inset 0 0 0 1px rgba(34, 197, 94, 0.22);
+    }
+
+    form {
+      display: grid;
+      gap: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    label {
+      display: grid;
+      gap: 8px;
+      color: #cbd5e1;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      min-height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: #e2e8f0;
+      font: inherit;
+      outline: none;
+      background: rgba(15, 23, 42, 0.55);
+      transition: border-color 140ms ease, box-shadow 140ms ease, background 140ms ease;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #64748b;
+    }
+
+    textarea {
+      min-height: 220px;
+      resize: vertical;
+      line-height: 1.5;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: #22c55e;
+      box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.18);
+      background: rgba(15, 23, 42, 0.75);
+    }
+
+    .panel {
+      display: none;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      background: rgba(148, 163, 184, 0.04);
+    }
+
+    .panel.active {
+      display: grid;
+      gap: 12px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .primary,
+    .secondary,
+    .danger-button {
+      min-height: 42px;
+      border-radius: 10px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 14px;
+      transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+    }
+
+    .primary {
+      border: 1px solid #22c55e99;
+      background: linear-gradient(120deg, var(--accent-2), var(--accent));
+      color: #f0fdf4;
+      box-shadow: 0 8px 18px rgba(22, 163, 74, 0.25);
+    }
+
+    .secondary {
+      border: 1px solid var(--line);
+      background: rgba(148, 163, 184, 0.08);
+      color: #e5e7eb;
+    }
+
+    .danger-button {
+      border: 1px solid #f87171aa;
+      background: var(--danger-soft);
+      color: #fecaca;
+    }
+
+    .primary:hover,
+    .secondary:hover,
+    .danger-button:hover {
+      transform: translateY(-1px);
+    }
+
+    .primary:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .output {
+      display: grid;
+      gap: 10px;
+      padding-top: 4px;
+    }
+
+    .status-box {
+      min-height: 92px;
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: radial-gradient(circle at 20% -20%, #1e293b, #0b1220 58%);
+      color: #dbeafe;
+      padding: 14px;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .error {
+      color: #fecaca;
+      font-weight: 700;
+    }
+
+    .toast {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      max-width: min(380px, calc(100% - 40px));
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid #22c55e66;
+      background: linear-gradient(120deg, #14532d, #166534);
+      color: #f0fdf4;
+      box-shadow: 0 14px 35px rgba(15, 23, 42, 0.35);
+      font-size: 13px;
+      line-height: 1.45;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(10px);
+      transition: opacity 160ms ease, transform 160ms ease;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .modal {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      background: rgba(2, 6, 23, 0.7);
+      z-index: 10;
+    }
+
+    .modal.show {
+      display: flex;
+    }
+
+    .modal-panel {
+      width: min(760px, 100%);
+      display: grid;
+      gap: 16px;
+      padding: 20px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: linear-gradient(155deg, rgba(15, 23, 42, 0.96), rgba(17, 24, 39, 0.96));
+      box-shadow: var(--shadow);
+    }
+
+    .modal-panel h2 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.3;
+      color: #f8fafc;
+      letter-spacing: 0.01em;
+    }
+
+    .modal-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 18px, 1040px);
+        padding: 14px 0;
+      }
+
+      header,
+      .content {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+
+      .grid,
+      .mode-tabs {
+        grid-template-columns: 1fr;
+      }
+
+      .mode-tabs button {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .mode-tabs button:last-child {
+        border-bottom: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="shell" aria-labelledby="page-title">
+      <header>
+        <h1 id="page-title">Email Sender</h1>
+        <p class="subtitle">Choose single mail or bulk mail, fill the details, then run the generated command in this folder.</p>
+      </header>
+
+      <div class="content">
+        <div class="mode-tabs" role="tablist" aria-label="Send mode">
+          <button class="active" type="button" data-mode="single" role="tab" aria-selected="true">Single Mail</button>
+          <button type="button" data-mode="bulk" role="tab" aria-selected="false">Bulk Mail</button>
+        </div>
+
+        <form id="sender-form">
+          <div class="grid">
+            <label>
+              Email subject
+              <input id="subject" type="text" value="Application" required />
+            </label>
+            <label>
+              Resume
+              <select id="resume" required>
+                <option value="">Loading resumes...</option>
+              </select>
+            </label>
+            <label>
+              Email body
+              <select id="email-body" required>
+                <option value="">Loading email bodies...</option>
+              </select>
+            </label>
+          </div>
+
+          <div id="single-panel" class="panel active">
+            <div class="grid">
+              <label>
+                Recipient name
+                <input id="recipient-name" type="text" placeholder="Hiring Manager" />
+              </label>
+              <label>
+                Recipient email
+                <input id="recipient-email" type="email" placeholder="person@company.com" />
+              </label>
+            </div>
+          </div>
+
+          <div id="bulk-panel" class="panel">
+            <div class="grid">
+              <label>
+                Receiver list
+                <select id="receiver-list-type">
+                  <option value="default" selected>Default list (data/email.xlsx)</option>
+                  <option value="system">Select from system</option>
+                </select>
+              </label>
+              <label id="receiver-file-label" style="display: none;">
+                Browse Excel file (.xlsx)
+                <input id="receiver-file" type="file" accept=".xlsx" />
+              </label>
+              <label>
+                Emails to send today
+                <input id="limit" type="number" value="200" min="1" max="200" />
+              </label>
+              <label>
+                Delay between emails
+                <input id="delay" type="number" value="2" min="0" step="0.5" />
+              </label>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button class="primary" type="submit" id="send-button">Send Email</button>
+            <button class="danger-button" type="button" id="stop-button">Stop Sending Email</button>
+          </div>
+        </form>
+
+        <div class="output" aria-live="polite">
+          <p id="message" class="note">Sender email, app password, contact file, and resume PDF come from scripts/email_sender.py.</p>
+          <pre id="status" class="status-box">Ready.</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="custom-body-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="custom-body-title">
+    <div class="modal-panel">
+      <h2 id="custom-body-title">Custom Email Body</h2>
+      <label>
+        Email body HTML
+        <textarea id="custom-body-text" placeholder="Write your custom email body here. Use {{name}} for the recipient name."></textarea>
+      </label>
+      <div class="modal-actions">
+        <button class="primary" type="button" id="confirm-custom-body">Confirm Message</button>
+        <button class="secondary" type="button" id="clear-custom-body">Clear</button>
+        <button class="danger-button" type="button" id="close-custom-body">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const tabs = document.querySelectorAll("[data-mode]");
+    const singlePanel = document.querySelector("#single-panel");
+    const bulkPanel = document.querySelector("#bulk-panel");
+    const form = document.querySelector("#sender-form");
+    const statusBox = document.querySelector("#status");
+    const message = document.querySelector("#message");
+    const sendButton = document.querySelector("#send-button");
+    const stopButton = document.querySelector("#stop-button");
+    const toast = document.querySelector("#toast");
+    const resumeSelect = document.querySelector("#resume");
+    const emailBodySelect = document.querySelector("#email-body");
+    const customBodyModal = document.querySelector("#custom-body-modal");
+    const customBodyText = document.querySelector("#custom-body-text");
+    const confirmCustomBody = document.querySelector("#confirm-custom-body");
+    const clearCustomBody = document.querySelector("#clear-custom-body");
+    const closeCustomBody = document.querySelector("#close-custom-body");
+    const receiverListType = document.querySelector("#receiver-list-type");
+    const receiverFileLabel = document.querySelector("#receiver-file-label");
+    const receiverFileInput = document.querySelector("#receiver-file");
+    let currentMode = "single";
+    let lastRunning = false;
+    let lastMode = null;
+    let lastEventId = 0;
+    let toastTimer = null;
+    let confirmedCustomBody = "";
+    let notificationPermissionRequested = false;
+
+    function showToast(text) {
+      toast.textContent = text;
+      toast.classList.add("show");
+      window.clearTimeout(toastTimer);
+      toastTimer = window.setTimeout(() => {
+        toast.classList.remove("show");
+      }, 3000);
+    }
+
+    async function ensureNotificationPermission() {
+      if (!("Notification" in window)) return;
+      if (Notification.permission === "granted") return;
+      if (Notification.permission === "denied") return;
+      if (notificationPermissionRequested) return;
+      notificationPermissionRequested = true;
+      try {
+        await Notification.requestPermission();
+      } catch (error) {
+        // Ignore permission request errors and continue with toast-only updates.
+      }
+    }
+
+    function showSuccessPopup(text) {
+      if ("Notification" in window && Notification.permission === "granted") {
+        new Notification("Email Sent", {
+          body: text || "Email sent successfully.",
+        });
+        return;
+      }
+      showToast(text || "Email sent successfully.");
+    }
+
+    function resetAllFields() {
+      document.querySelector("#subject").value = "Application";
+      document.querySelector("#recipient-name").value = "";
+      document.querySelector("#recipient-email").value = "";
+      document.querySelector("#limit").value = "200";
+      document.querySelector("#delay").value = "2";
+
+      if (resumeSelect.options.length) {
+        resumeSelect.selectedIndex = 0;
+      }
+      if (emailBodySelect.options.length) {
+        emailBodySelect.selectedIndex = 0;
+      }
+
+      receiverListType.value = "default";
+      receiverFileInput.value = "";
+      receiverFileInput.dataset.uploadedPath = "";
+      toggleReceiverFileInput();
+
+      confirmedCustomBody = "";
+      customBodyText.value = "";
+      const customOption = Array.from(emailBodySelect.options).find((option) => option.value === "custom");
+      if (customOption) {
+        customOption.textContent = "Custom";
+      }
+    }
+
+    function value(id) {
+      return document.querySelector(`#${id}`).value.trim();
+    }
+
+    function setMode(mode) {
+      currentMode = mode;
+      tabs.forEach((tab) => {
+        const active = tab.dataset.mode === mode;
+        tab.classList.toggle("active", active);
+        tab.setAttribute("aria-selected", String(active));
+      });
+      singlePanel.classList.toggle("active", mode === "single");
+      bulkPanel.classList.toggle("active", mode === "bulk");
+      statusBox.textContent = "Ready.";
+      message.textContent = "Sender email, app password, contact file, and resume PDF come from scripts/email_sender.py.";
+      message.classList.remove("error");
+      toggleReceiverFileInput();
+    }
+
+    function requireFields(fields) {
+      const missing = fields.filter((field) => !value(field.id)).map((field) => field.label);
+      if (missing.length) {
+        message.textContent = `Missing: ${missing.join(", ")}`;
+        message.classList.add("error");
+        return false;
+      }
+      return true;
+    }
+
+    function buildPayload() {
+      const commonFields = [
+        { id: "subject", label: "Email subject" },
+        { id: "resume", label: "Resume" },
+        { id: "email-body", label: "Email body" },
+      ];
+
+      if (currentMode === "single") {
+        const fields = [
+          ...commonFields,
+          { id: "recipient-name", label: "Recipient name" },
+          { id: "recipient-email", label: "Recipient email" },
+        ];
+        if (!requireFields(fields)) return null;
+
+        const payload = {
+          mode: "single",
+          name: value("recipient-name"),
+          email: value("recipient-email"),
+          subject: value("subject"),
+          pdf: value("resume"),
+        };
+        if (!addEmailBodyToPayload(payload)) return null;
+        return payload;
+      }
+
+      const fields = [
+        ...commonFields,
+        { id: "limit", label: "Emails to send today" },
+        { id: "delay", label: "Delay between emails" },
+      ];
+      if (!requireFields(fields)) return null;
+
+      const payload = {
+        mode: "bulk",
+        subject: value("subject"),
+        pdf: value("resume"),
+        limit: value("limit"),
+        delay: value("delay"),
+        receiverListType: receiverListType.value,
+      };
+      if (receiverListType.value === "system") {
+        const uploadedPath = receiverFileInput.dataset.uploadedPath || "";
+        if (!uploadedPath) {
+          message.textContent = "Upload an Excel receiver list first.";
+          message.classList.add("error");
+          return null;
+        }
+        payload.excelPath = uploadedPath;
+      }
+      if (!addEmailBodyToPayload(payload)) return null;
+      return payload;
+    }
+
+    function toggleReceiverFileInput() {
+      const useSystem = receiverListType.value === "system" && currentMode === "bulk";
+      receiverFileLabel.style.display = useSystem ? "grid" : "none";
+    }
+
+    async function uploadReceiverFileIfNeeded() {
+      if (currentMode !== "bulk" || receiverListType.value !== "system") {
+        return true;
+      }
+
+      const file = receiverFileInput.files && receiverFileInput.files[0];
+      if (!file) {
+        message.textContent = "Please browse and select an Excel receiver list.";
+        message.classList.add("error");
+        return false;
+      }
+
+      const formData = new FormData();
+      formData.append("file", file);
+      const response = await fetch("/api/upload-excel", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await response.json();
+      if (!data.ok) {
+        message.textContent = data.message || "Unable to upload receiver list.";
+        message.classList.add("error");
+        return false;
+      }
+
+      receiverFileInput.dataset.uploadedPath = data.path || "";
+      message.textContent = "Receiver list uploaded successfully.";
+      message.classList.remove("error");
+      return true;
+    }
+
+    function addEmailBodyToPayload(payload) {
+      if (emailBodySelect.value === "custom") {
+        if (!confirmedCustomBody.trim()) {
+          message.textContent = "Confirm the custom email body before sending.";
+          message.classList.add("error");
+          openCustomBodyModal();
+          return false;
+        }
+        payload.bodyType = "custom";
+        payload.customBody = confirmedCustomBody;
+        return true;
+      }
+
+      payload.bodyType = "template";
+      payload.htmlBody = emailBodySelect.value;
+      return true;
+    }
+
+    async function loadResumes() {
+      try {
+        const response = await fetch("/api/resumes");
+        const data = await response.json();
+        const resumes = Array.isArray(data.resumes) ? data.resumes : [];
+        resumeSelect.innerHTML = "";
+
+        if (!resumes.length) {
+          const option = document.createElement("option");
+          option.value = "";
+          option.textContent = "No PDF files found";
+          resumeSelect.appendChild(option);
+          message.textContent = "No PDF files found in the resume folder.";
+          message.classList.add("error");
+          return;
+        }
+
+        resumes.forEach((resume) => {
+          const option = document.createElement("option");
+          option.value = resume.path;
+          option.textContent = resume.name;
+          option.selected = resume.path === data.default;
+          resumeSelect.appendChild(option);
+        });
+
+        if (!resumeSelect.value) {
+          resumeSelect.selectedIndex = 0;
+        }
+        message.classList.remove("error");
+      } catch (error) {
+        resumeSelect.innerHTML = '<option value="">Unable to load resumes</option>';
+        message.textContent = "Unable to load resumes. Start the local server with: python scripts/email_sender_server.py";
+        message.classList.add("error");
+      }
+    }
+
+    async function loadEmailBodies() {
+      try {
+        const response = await fetch("/api/email-bodies");
+        const data = await response.json();
+        const templates = Array.isArray(data.templates) ? data.templates : [];
+        emailBodySelect.innerHTML = "";
+
+        templates.forEach((template) => {
+          const option = document.createElement("option");
+          option.value = template.path;
+          option.textContent = template.label;
+          option.selected = template.path === data.default;
+          emailBodySelect.appendChild(option);
+        });
+
+        const customOption = document.createElement("option");
+        customOption.value = "custom";
+        customOption.textContent = confirmedCustomBody ? "Custom (confirmed)" : "Custom";
+        emailBodySelect.appendChild(customOption);
+
+        if (!emailBodySelect.value && emailBodySelect.options.length) {
+          emailBodySelect.selectedIndex = 0;
+        }
+      } catch (error) {
+        emailBodySelect.innerHTML = '<option value="">Unable to load email bodies</option>';
+        message.textContent = "Unable to load email bodies. Start the local server with: python scripts/email_sender_server.py";
+        message.classList.add("error");
+      }
+    }
+
+    function openCustomBodyModal() {
+      customBodyText.value = confirmedCustomBody || customBodyText.value;
+      customBodyModal.classList.add("show");
+      customBodyText.focus();
+    }
+
+    function closeCustomBodyModal() {
+      customBodyModal.classList.remove("show");
+    }
+
+    async function postJson(url, payload = {}) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      return response.json();
+    }
+
+    async function refreshStatus() {
+      try {
+        const response = await fetch("/api/status");
+        const data = await response.json();
+        statusBox.textContent = data.message || "Ready.";
+        sendButton.disabled = Boolean(data.running);
+        const newEvents = Array.isArray(data.events)
+          ? data.events.filter((event) => Number(event.id) > lastEventId)
+          : [];
+        newEvents.forEach((event) => {
+          if (event.status === "sent") {
+            showSuccessPopup(event.message || "Email sent successfully.");
+          } else {
+            showToast(event.message || "Email status updated.");
+          }
+          lastEventId = Math.max(lastEventId, Number(event.id) || 0);
+        });
+        if (lastRunning && !data.running) {
+          const completionMessage = String(data.message || "");
+          showToast(completionMessage || "Email sending finished.");
+          if (!completionMessage.startsWith("Error:")) {
+            resetAllFields();
+            statusBox.textContent = "Ready.";
+            message.textContent = "Ready for next send.";
+            message.classList.remove("error");
+          }
+        }
+        lastRunning = Boolean(data.running);
+        if (data.running) {
+          lastMode = data.mode;
+        }
+      } catch (error) {
+        statusBox.textContent = "Start the local server with: python scripts/email_sender_server.py";
+      }
+    }
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => setMode(tab.dataset.mode));
+    });
+
+    receiverListType.addEventListener("change", () => {
+      receiverFileInput.value = "";
+      receiverFileInput.dataset.uploadedPath = "";
+      toggleReceiverFileInput();
+    });
+
+    receiverFileInput.addEventListener("change", () => {
+      receiverFileInput.dataset.uploadedPath = "";
+    });
+
+    emailBodySelect.addEventListener("change", () => {
+      if (emailBodySelect.value === "custom") {
+        openCustomBodyModal();
+      }
+    });
+
+    confirmCustomBody.addEventListener("click", () => {
+      const body = customBodyText.value.trim();
+      if (!body) {
+        message.textContent = "Custom email body cannot be empty.";
+        message.classList.add("error");
+        customBodyText.focus();
+        return;
+      }
+      confirmedCustomBody = body;
+      const customOption = Array.from(emailBodySelect.options).find((option) => option.value === "custom");
+      if (customOption) {
+        customOption.textContent = "Custom (confirmed)";
+        customOption.selected = true;
+      }
+      message.textContent = "Custom email body confirmed.";
+      message.classList.remove("error");
+      showToast("Custom email body confirmed.");
+      closeCustomBodyModal();
+    });
+
+    clearCustomBody.addEventListener("click", () => {
+      customBodyText.value = "";
+      confirmedCustomBody = "";
+      const customOption = Array.from(emailBodySelect.options).find((option) => option.value === "custom");
+      if (customOption) {
+        customOption.textContent = "Custom";
+      }
+      customBodyText.focus();
+    });
+
+    closeCustomBody.addEventListener("click", () => {
+      closeCustomBodyModal();
+    });
+
+    customBodyModal.addEventListener("click", (event) => {
+      if (event.target === customBodyModal) {
+        closeCustomBodyModal();
+      }
+    });
+
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      await ensureNotificationPermission();
+      const uploaded = await uploadReceiverFileIfNeeded();
+      if (!uploaded) return;
+      const payload = buildPayload();
+      if (!payload) return;
+
+      sendButton.disabled = true;
+      lastEventId = 0;
+      statusBox.textContent = "Starting...";
+      postJson("/api/send", payload)
+        .then((data) => {
+          statusBox.textContent = data.message || "Sending started.";
+          message.classList.toggle("error", data.ok === false);
+        })
+        .catch(() => {
+          statusBox.textContent = "Start the local server with: python scripts/email_sender_server.py";
+          message.classList.add("error");
+        })
+        .finally(refreshStatus);
+    });
+
+    stopButton.addEventListener("click", () => {
+      postJson("/api/stop")
+        .then((data) => {
+          statusBox.textContent = data.message || "Stop requested.";
+          message.classList.remove("error");
+        })
+        .catch(() => {
+          statusBox.textContent = "Start the local server with: python scripts/email_sender_server.py";
+          message.classList.add("error");
+        });
+    });
+
+    loadResumes();
+    loadEmailBodies();
+    refreshStatus();
+    setInterval(refreshStatus, 3000);
+  </script>
+</body>
+</html>
