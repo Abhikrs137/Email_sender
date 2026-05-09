@@ -83,7 +83,7 @@ def list_resumes():
     return [
         {
             "name": pdf.name,
-            "path": f"email_sender_abhi/resume/{pdf.name}",
+            "path": f"resume/{pdf.name}",
         }
         for pdf in sorted(RESUME_DIR.glob("*.pdf"), key=lambda item: item.name.lower())
     ]

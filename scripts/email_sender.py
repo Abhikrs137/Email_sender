@@ -48,7 +48,7 @@ DEFAULT_SUBJECT = "Application"
 DEFAULT_DAILY_LIMIT = 200
 DEFAULT_DELAY = 2.0
 DEFAULT_EXCEL_PATH = "data/email.xlsx"
-DEFAULT_PDF_PATH = "email_sender_abhi/resume/Abhishek_3Year.pdf"
+DEFAULT_PDF_PATH = "resume/Abhishek_3Year.pdf"
 DEFAULT_HTML_BODY_PATH = "email_bodies/email_body_template.html"
 
 MAX_DAILY = 200
@@ -59,7 +59,8 @@ def resolve_path(path):
     if path.is_absolute():
         return path
     if str(path).startswith("email_sender_abhi/"):
-        return APP_DIR.parent / path
+        path = str(path).replace("email_sender_abhi/", "", 1)
+        return APP_DIR / path
     return APP_DIR / path
 
 
