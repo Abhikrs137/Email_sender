@@ -58,9 +58,10 @@ def resolve_path(path):
     path = Path(path)
     if path.is_absolute():
         return path
-    if str(path).startswith("email_sender_abhi/"):
-        path = str(path).replace("email_sender_abhi/", "", 1)
-        return APP_DIR / path
+    
+    # Handle cases where the path might include the old folder name prefix
+    if path.parts and path.parts[0] == "email_sender_abhi":
+        return APP_DIR / Path(*path.parts[1:])
     return APP_DIR / path
 
 
@@ -238,35 +239,37 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
 
     server = connect_smtp(sender_email, app_password)
 
-    for idx, row in to_send.iterrows():
-        if should_stop and should_stop():
-            log("Bulk sending stopped by user.")
-            break
+    try:
+        for idx, row in to_send.iterrows():
+            if should_stop and should_stop():
+                log("Bulk sending stopped by user.")
+                break
 
-        name = str(row["name"]).strip()
-        email = str(row["email"]).strip()
+            name = str(row["name"]).strip()
+            email = str(row["email"]).strip()
 
-        try:
-            msg = build_email(sender_email, name, email, html_body, pdf_path, subject)
-            server.sendmail(sender_email, email, msg.as_string())
-            log(f"Sent to {name} <{email}>")
-            if on_progress:
-                on_progress("sent", name, email, f"Sent to {name} <{email}>")
-            remove_contact_entry(excel_path, name, email)
-            sent_count += 1
-        except Exception as e:
-            log(f"Failed to send to {name} <{email}>: {e}")
-            if on_progress:
-                on_progress("failed", name, email, f"Failed to send to {name} <{email}>: {e}")
-            failed_count += 1
+            try:
+                msg = build_email(sender_email, name, email, html_body, pdf_path, subject)
+                server.sendmail(sender_email, email, msg.as_string())
+                log(f"Sent to {name} <{email}>")
+                if on_progress:
+                    on_progress("sent", name, email, f"Sent to {name} <{email}>")
+                remove_contact_entry(excel_path, name, email)
+                sent_count += 1
+            except Exception as e:
+                log(f"Failed to send to {name} <{email}>: {e}")
+                if on_progress:
+                    on_progress("failed", name, email, f"Failed to send to {name} <{email}>: {e}")
+                failed_count += 1
 
-        if should_stop and should_stop():
-            log("Bulk sending stopped by user.")
-            break
+            if should_stop and should_stop():
+                log("Bulk sending stopped by user.")
+                break
 
-        time.sleep(delay)
+            time.sleep(delay)
+    finally:
+        server.quit()
 
-    server.quit()
     log(f"\n=== Done: {sent_count} sent, {failed_count} failed ===")
     log(f"Remaining contacts in Excel: {total_remaining - sent_count}")
 

@@ -55,9 +55,21 @@
     }
 
     header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
       padding: 28px 28px 22px;
       border-bottom: 1px solid var(--line);
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), transparent);
+    }
+
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      justify-content: flex-end;
     }
 
     h1 {
@@ -205,6 +217,16 @@
       transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
     }
 
+    .link-button {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
     .primary {
       border: 1px solid #22c55e99;
       background: linear-gradient(120deg, var(--accent-2), var(--accent));
@@ -255,6 +277,81 @@
       padding: 14px;
       font-size: 13px;
       line-height: 1.6;
+    }
+
+    .preview-panel {
+      display: grid;
+      gap: 10px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px;
+      background: rgba(148, 163, 184, 0.04);
+    }
+
+    .preview-heading {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+
+    .preview-heading h2 {
+      margin: 0;
+      color: #f8fafc;
+      font-size: 18px;
+      line-height: 1.3;
+    }
+
+    .preview-frame {
+      width: 100%;
+      min-height: 620px;
+      border: 1px solid var(--line-strong);
+      border-radius: 12px;
+      background: #ffffff;
+    }
+
+    .email-shell {
+      overflow: hidden;
+      border: 1px solid var(--line-strong);
+      border-radius: 12px;
+      background: #f8fafc;
+    }
+
+    .email-meta {
+      display: grid;
+      gap: 8px;
+      padding: 14px;
+      border-bottom: 1px solid #cbd5e1;
+      background: #ffffff;
+      color: #0f172a;
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .email-meta-row {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr);
+      gap: 10px;
+    }
+
+    .email-meta-label {
+      color: #64748b;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+    }
+
+    .email-meta-value {
+      word-break: break-word;
+    }
+
+    .email-body-preview {
+      width: 100%;
+      min-height: 620px;
+      border: 0;
+      background: #ffffff;
     }
 
     .note {
@@ -346,6 +443,14 @@
         padding-right: 16px;
       }
 
+      header {
+        display: grid;
+      }
+
+      .navbar {
+        justify-content: flex-start;
+      }
+
       .grid,
       .mode-tabs {
         grid-template-columns: 1fr;
@@ -366,8 +471,14 @@
   <main>
     <section class="shell" aria-labelledby="page-title">
       <header>
-        <h1 id="page-title">Email Sender</h1>
-        <p class="subtitle">Choose single mail or bulk mail, fill the details, then run the generated command in this folder.</p>
+        <div>
+          <h1 id="page-title">Email Sender</h1>
+          <p class="subtitle">Choose single mail or bulk mail, fill the details, then run the generated command in this folder.</p>
+        </div>
+        <nav class="navbar" aria-label="Main navigation">
+          <a class="secondary link-button" href="/credentials_ui.html">Manage Credentials</a>
+          <a class="secondary link-button" href="/email_bodies_ui.html">Manage Email Bodies</a>
+        </nav>
       </header>
 
       <div class="content">
@@ -392,6 +503,12 @@
               Email body
               <select id="email-body" required>
                 <option value="">Loading email bodies...</option>
+              </select>
+            </label>
+            <label>
+              Owner
+              <select id="owner" required>
+                <option value="">Loading owners...</option>
               </select>
             </label>
           </div>
@@ -435,7 +552,9 @@
 
           <div class="actions">
             <button class="primary" type="submit" id="send-button">Send Email</button>
-            <button class="danger-button" type="button" id="stop-button">Stop Sending Email</button>
+            <button class="secondary" type="button" id="preview-button">Email Preview</button>
+            <button class="secondary hidden" type="button" id="stop-preview-button">Stop Preview</button>
+            <button class="danger-button hidden" type="button" id="stop-button">Stop Sending Email</button>
           </div>
         </form>
 
@@ -443,6 +562,34 @@
           <p id="message" class="note">Sender email, app password, contact file, and resume PDF come from scripts/email_sender.py.</p>
           <pre id="status" class="status-box">Ready.</pre>
         </div>
+
+        <section id="preview-panel" class="preview-panel hidden" aria-label="Email preview">
+          <div class="preview-heading">
+            <h2>Email Preview</h2>
+            <p id="preview-note" class="note">Select an email body to preview.</p>
+          </div>
+          <div class="email-shell">
+            <div class="email-meta">
+              <div class="email-meta-row">
+                <div class="email-meta-label">From</div>
+                <div class="email-meta-value" id="preview-from">Loading...</div>
+              </div>
+              <div class="email-meta-row">
+                <div class="email-meta-label">To</div>
+                <div class="email-meta-value" id="preview-to">Select mode</div>
+              </div>
+              <div class="email-meta-row">
+                <div class="email-meta-label">Subject</div>
+                <div class="email-meta-value" id="preview-subject">Application</div>
+              </div>
+              <div class="email-meta-row">
+                <div class="email-meta-label">Resume</div>
+                <div class="email-meta-value" id="preview-resume">No resume selected</div>
+              </div>
+            </div>
+            <iframe id="email-preview" class="email-body-preview" title="Selected email body preview"></iframe>
+          </div>
+        </section>
       </div>
     </section>
   </main>
@@ -470,10 +617,13 @@
     const statusBox = document.querySelector("#status");
     const message = document.querySelector("#message");
     const sendButton = document.querySelector("#send-button");
+    const previewButton = document.querySelector("#preview-button");
+    const stopPreviewButton = document.querySelector("#stop-preview-button");
     const stopButton = document.querySelector("#stop-button");
     const toast = document.querySelector("#toast");
     const resumeSelect = document.querySelector("#resume");
     const emailBodySelect = document.querySelector("#email-body");
+    const ownerSelect = document.querySelector("#owner");
     const customBodyModal = document.querySelector("#custom-body-modal");
     const customBodyText = document.querySelector("#custom-body-text");
     const confirmCustomBody = document.querySelector("#confirm-custom-body");
@@ -482,12 +632,27 @@
     const receiverListType = document.querySelector("#receiver-list-type");
     const receiverFileLabel = document.querySelector("#receiver-file-label");
     const receiverFileInput = document.querySelector("#receiver-file");
+    const emailPreview = document.querySelector("#email-preview");
+    const previewPanel = document.querySelector("#preview-panel");
+    const previewNote = document.querySelector("#preview-note");
+    const previewFrom = document.querySelector("#preview-from");
+    const previewTo = document.querySelector("#preview-to");
+    const previewSubject = document.querySelector("#preview-subject");
+    const previewResume = document.querySelector("#preview-resume");
     let currentMode = "single";
     let lastRunning = false;
     let lastMode = null;
     let lastEventId = 0;
     let toastTimer = null;
     let confirmedCustomBody = "";
+    let previewBodyCache = {};
+    let ownerCache = [];
+    let previewVisible = false;
+    let senderPreviewConfig = {
+      senderEmail: "",
+      defaultSubject: "Application",
+      defaultPdf: "",
+    };
     let notificationPermissionRequested = false;
 
     function showToast(text) {
@@ -547,10 +712,39 @@
       if (customOption) {
         customOption.textContent = "Custom";
       }
+      refreshPreviewIfVisible();
     }
 
     function value(id) {
       return document.querySelector(`#${id}`).value.trim();
+    }
+
+    async function fetchJson(url, options) {
+      const urls = [url];
+
+      if (window.location.protocol === "file:" || window.location.hostname !== "127.0.0.1") {
+        urls.push(`http://127.0.0.1:8000${url}`);
+      }
+
+      let lastError = null;
+
+      for (const requestUrl of urls) {
+        try {
+          const response = await fetch(requestUrl, options);
+          const text = await response.text();
+          const data = text ? JSON.parse(text) : {};
+
+          if (!response.ok || data.ok === false) {
+            throw new Error(data.message || `Request failed with status ${response.status}.`);
+          }
+
+          return data;
+        } catch (error) {
+          lastError = error;
+        }
+      }
+
+      throw lastError || new Error("Request failed.");
     }
 
     function setMode(mode) {
@@ -566,6 +760,7 @@
       message.textContent = "Sender email, app password, contact file, and resume PDF come from scripts/email_sender.py.";
       message.classList.remove("error");
       toggleReceiverFileInput();
+      refreshPreviewIfVisible();
     }
 
     function requireFields(fields) {
@@ -583,6 +778,7 @@
         { id: "subject", label: "Email subject" },
         { id: "resume", label: "Resume" },
         { id: "email-body", label: "Email body" },
+        { id: "owner", label: "Owner" },
       ];
 
       if (currentMode === "single") {
@@ -599,6 +795,7 @@
           email: value("recipient-email"),
           subject: value("subject"),
           pdf: value("resume"),
+          ownerId: value("owner"),
         };
         if (!addEmailBodyToPayload(payload)) return null;
         return payload;
@@ -615,6 +812,7 @@
         mode: "bulk",
         subject: value("subject"),
         pdf: value("resume"),
+        ownerId: value("owner"),
         limit: value("limit"),
         delay: value("delay"),
         receiverListType: receiverListType.value,
@@ -688,8 +886,7 @@
 
     async function loadResumes() {
       try {
-        const response = await fetch("/api/resumes");
-        const data = await response.json();
+        const data = await fetchJson("/api/resumes");
         const resumes = Array.isArray(data.resumes) ? data.resumes : [];
         resumeSelect.innerHTML = "";
 
@@ -724,10 +921,10 @@
 
     async function loadEmailBodies() {
       try {
-        const response = await fetch("/api/email-bodies");
-        const data = await response.json();
+        const data = await fetchJson("/api/email-bodies");
         const templates = Array.isArray(data.templates) ? data.templates : [];
         emailBodySelect.innerHTML = "";
+        previewBodyCache = {};
 
         templates.forEach((template) => {
           const option = document.createElement("option");
@@ -745,11 +942,179 @@
         if (!emailBodySelect.value && emailBodySelect.options.length) {
           emailBodySelect.selectedIndex = 0;
         }
+        refreshPreviewIfVisible();
       } catch (error) {
         emailBodySelect.innerHTML = '<option value="">Unable to load email bodies</option>';
-        message.textContent = "Unable to load email bodies. Start the local server with: python scripts/email_sender_server.py";
+        message.textContent = `Unable to load email bodies: ${error.message || "check that http://127.0.0.1:8000 is open."}`;
         message.classList.add("error");
       }
+    }
+
+    async function loadCredentials() {
+      try {
+        const data = await fetchJson("/api/credentials");
+        ownerCache = Array.isArray(data.credentials) ? data.credentials : [];
+        ownerSelect.innerHTML = "";
+
+        if (!ownerCache.length) {
+          const option = document.createElement("option");
+          option.value = "";
+          option.textContent = "Add owner credentials first";
+          ownerSelect.appendChild(option);
+          message.textContent = "Add owner credentials before sending email.";
+          message.classList.add("error");
+          return;
+        }
+
+        ownerCache.forEach((credential) => {
+          const option = document.createElement("option");
+          option.value = credential.id;
+          option.textContent = `${credential.ownerName} (${credential.senderEmail})`;
+          option.selected = credential.id === data.default;
+          ownerSelect.appendChild(option);
+        });
+
+        if (!ownerSelect.value && ownerSelect.options.length) {
+          ownerSelect.selectedIndex = 0;
+        }
+
+        message.classList.remove("error");
+        refreshPreviewIfVisible();
+      } catch (error) {
+        ownerSelect.innerHTML = '<option value="">Unable to load owners</option>';
+        message.textContent = `Unable to load owner credentials: ${error.message || "check Manage Credentials."}`;
+        message.classList.add("error");
+      }
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;");
+    }
+
+    function previewName() {
+      if (currentMode === "single") {
+        return value("recipient-name") || "Hiring Manager";
+      }
+      return "Bulk Recipient";
+    }
+
+    function selectedResumeLabel() {
+      const selectedOption = resumeSelect.options[resumeSelect.selectedIndex];
+      if (!selectedOption || !resumeSelect.value) {
+        return "No resume selected";
+      }
+      return selectedOption.textContent || resumeSelect.value;
+    }
+
+    function previewRecipientLine() {
+      if (currentMode === "single") {
+        const name = value("recipient-name") || "Hiring Manager";
+        const email = value("recipient-email") || "person@company.com";
+        return `${name} <${email}>`;
+      }
+
+      if (receiverListType.value === "system") {
+        const uploaded = receiverFileInput.dataset.uploadedPath || "";
+        const selectedFile = receiverFileInput.files && receiverFileInput.files[0];
+        return uploaded || (selectedFile ? selectedFile.name : "Recipients from selected Excel file");
+      }
+
+      return "Recipients from data/email.xlsx";
+    }
+
+    function updatePreviewEnvelope() {
+      const selectedOwner = ownerCache.find((owner) => owner.id === ownerSelect.value);
+      previewFrom.textContent = selectedOwner
+        ? `${selectedOwner.ownerName} <${selectedOwner.senderEmail}>`
+        : "Owner credential not selected";
+      previewTo.textContent = previewRecipientLine();
+      previewSubject.textContent = value("subject") || senderPreviewConfig.defaultSubject || "Application";
+      previewResume.textContent = selectedResumeLabel();
+    }
+
+    async function selectedEmailBodyContent() {
+      if (emailBodySelect.value === "custom") {
+        return confirmedCustomBody || customBodyText.value || "";
+      }
+
+      const selectedPath = emailBodySelect.value;
+      if (!selectedPath) return "";
+
+      if (previewBodyCache[selectedPath]) {
+        return previewBodyCache[selectedPath];
+      }
+
+      const data = await fetchJson(`/api/email-bodies?path=${encodeURIComponent(selectedPath)}`);
+
+      previewBodyCache[selectedPath] = data.body.content || "";
+      return previewBodyCache[selectedPath];
+    }
+
+    async function updateEmailPreview() {
+      if (!previewVisible) return;
+
+      try {
+        updatePreviewEnvelope();
+        const content = await selectedEmailBodyContent();
+        if (!content.trim()) {
+          emailPreview.srcdoc = "<p style=\"font-family:Segoe UI, Arial, sans-serif; padding:20px; color:#374151;\">No email body selected.</p>";
+          previewNote.textContent = "Select an email body to preview the complete email.";
+          return;
+        }
+
+        const name = escapeHtml(previewName());
+        emailPreview.srcdoc = content
+          .replaceAll("{{name}}", name)
+          .replaceAll("{{Name}}", name);
+        previewNote.textContent = `${currentMode === "single" ? "Single" : "Bulk"} mail preview with full email details.`;
+      } catch (error) {
+        updatePreviewEnvelope();
+        emailPreview.srcdoc = "<p style=\"font-family:Segoe UI, Arial, sans-serif; padding:20px; color:#991b1b;\">Unable to load preview.</p>";
+        previewNote.textContent = "Unable to load selected email body.";
+      }
+    }
+
+    function refreshPreviewIfVisible() {
+      if (previewVisible) {
+        updateEmailPreview();
+      }
+    }
+
+    function showEmailPreview() {
+      previewVisible = true;
+      previewPanel.classList.remove("hidden");
+      previewButton.classList.add("hidden");
+      stopPreviewButton.classList.remove("hidden");
+      updateEmailPreview();
+    }
+
+    function stopEmailPreview() {
+      previewVisible = false;
+      previewPanel.classList.add("hidden");
+      previewButton.classList.remove("hidden");
+      stopPreviewButton.classList.add("hidden");
+      emailPreview.srcdoc = "";
+      previewNote.textContent = "Select an email body to preview.";
+    }
+
+    async function loadSenderPreviewConfig() {
+      try {
+        const data = await fetchJson("/api/sender-preview-config");
+        if (data.ok) {
+          senderPreviewConfig = {
+            senderEmail: data.senderEmail || "",
+            defaultSubject: data.defaultSubject || "Application",
+            defaultPdf: data.defaultPdf || "",
+          };
+        }
+      } catch (error) {
+        senderPreviewConfig.senderEmail = "";
+      }
+      refreshPreviewIfVisible();
     }
 
     function openCustomBodyModal() {
@@ -776,7 +1141,9 @@
         const response = await fetch("/api/status");
         const data = await response.json();
         statusBox.textContent = data.message || "Ready.";
-        sendButton.disabled = Boolean(data.running);
+        const isRunning = Boolean(data.running);
+        sendButton.disabled = isRunning;
+        stopButton.classList.toggle("hidden", !isRunning);
         const newEvents = Array.isArray(data.events)
           ? data.events.filter((event) => Number(event.id) > lastEventId)
           : [];
@@ -798,7 +1165,7 @@
             message.classList.remove("error");
           }
         }
-        lastRunning = Boolean(data.running);
+        lastRunning = isRunning;
         if (data.running) {
           lastMode = data.mode;
         }
@@ -815,15 +1182,31 @@
       receiverFileInput.value = "";
       receiverFileInput.dataset.uploadedPath = "";
       toggleReceiverFileInput();
+      refreshPreviewIfVisible();
     });
 
     receiverFileInput.addEventListener("change", () => {
       receiverFileInput.dataset.uploadedPath = "";
+      refreshPreviewIfVisible();
     });
 
     emailBodySelect.addEventListener("change", () => {
       if (emailBodySelect.value === "custom") {
         openCustomBodyModal();
+      }
+      refreshPreviewIfVisible();
+    });
+
+    previewButton.addEventListener("click", showEmailPreview);
+    stopPreviewButton.addEventListener("click", stopEmailPreview);
+    document.querySelector("#recipient-name").addEventListener("input", refreshPreviewIfVisible);
+    document.querySelector("#recipient-email").addEventListener("input", refreshPreviewIfVisible);
+    document.querySelector("#subject").addEventListener("input", refreshPreviewIfVisible);
+    resumeSelect.addEventListener("change", refreshPreviewIfVisible);
+    ownerSelect.addEventListener("change", refreshPreviewIfVisible);
+    customBodyText.addEventListener("input", () => {
+      if (emailBodySelect.value === "custom") {
+        refreshPreviewIfVisible();
       }
     });
 
@@ -845,6 +1228,7 @@
       message.classList.remove("error");
       showToast("Custom email body confirmed.");
       closeCustomBodyModal();
+      refreshPreviewIfVisible();
     });
 
     clearCustomBody.addEventListener("click", () => {
@@ -855,6 +1239,7 @@
         customOption.textContent = "Custom";
       }
       customBodyText.focus();
+      refreshPreviewIfVisible();
     });
 
     closeCustomBody.addEventListener("click", () => {
@@ -876,6 +1261,7 @@
       if (!payload) return;
 
       sendButton.disabled = true;
+      stopButton.classList.remove("hidden");
       lastEventId = 0;
       statusBox.textContent = "Starting...";
       postJson("/api/send", payload)
@@ -904,6 +1290,8 @@
 
     loadResumes();
     loadEmailBodies();
+    loadCredentials();
+    loadSenderPreviewConfig();
     refreshStatus();
     setInterval(refreshStatus, 3000);
   </script>
