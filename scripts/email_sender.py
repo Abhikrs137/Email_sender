@@ -145,7 +145,7 @@ def connect_smtp(sender_email, app_password):
         return server
     except Exception as e:
         log(f"SMTP connection failed: {e}")
-        sys.exit(1)
+        raise
 
 
 def remove_contact_entry(excel_path, recipient_name, recipient_email):
@@ -200,12 +200,13 @@ def get_sender_email(cli_sender=None):
 
 def send_single_email(recipient_name, recipient_email, sender_email, app_password, pdf_path, html_body_path, subject, on_progress=None, html_body_content=None):
     html_body = html_body_content if html_body_content is not None else load_html_body(html_body_path)
-    server = connect_smtp(sender_email, app_password)
+    server = None
 
     name = recipient_name.strip()
     email = recipient_email.strip()
 
     try:
+        server = connect_smtp(sender_email, app_password)
         msg = build_email(sender_email, name, email, html_body, pdf_path, subject)
         server.sendmail(sender_email, email, msg.as_string())
         log(f"Sent to {name} <{email}>")
@@ -215,8 +216,13 @@ def send_single_email(recipient_name, recipient_email, sender_email, app_passwor
         log(f"Failed to send to {name} <{email}>: {e}")
         if on_progress:
             on_progress("failed", name, email, f"Failed to send to {name} <{email}>: {e}")
+        raise
     finally:
-        server.quit()
+        if server:
+            try:
+                server.quit()
+            except:
+                pass
 
 
 def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path, subject, daily_limit=MAX_DAILY, delay=2, should_stop=None, on_progress=None, html_body_content=None):
@@ -237,9 +243,10 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
     sent_count = 0
     failed_count = 0
 
-    server = connect_smtp(sender_email, app_password)
-
+    server = None
     try:
+        server = connect_smtp(sender_email, app_password)
+
         for idx, row in to_send.iterrows():
             if should_stop and should_stop():
                 log("Bulk sending stopped by user.")
@@ -248,6 +255,23 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
             name = str(row["name"]).strip()
             email = str(row["email"]).strip()
 
+            # 1. Ensure SMTP connection is alive, or reconnect
+            try:
+                try:
+                    if server is None:
+                        server = connect_smtp(sender_email, app_password)
+                    else:
+                        server.noop()
+                except Exception:
+                    log("SMTP connection lost or not established. Reconnecting...")
+                    server = connect_smtp(sender_email, app_password)
+            except Exception as conn_err:
+                log(f"Fatal: Could not establish SMTP connection: {conn_err}")
+                if on_progress:
+                    on_progress("failed", name, email, f"Connection failure: {conn_err}")
+                break  # Stop the bulk process if we cannot maintain a connection
+
+            # 2. Attempt to build and send the email
             try:
                 msg = build_email(sender_email, name, email, html_body, pdf_path, subject)
                 server.sendmail(sender_email, email, msg.as_string())
@@ -256,6 +280,20 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
                     on_progress("sent", name, email, f"Sent to {name} <{email}>")
                 remove_contact_entry(excel_path, name, email)
                 sent_count += 1
+            except (smtplib.SMTPResponseException, smtplib.SMTPRecipientsRefused) as e:
+                err_msg = str(e)
+                log(f"SMTP Error for {name} <{email}>: {err_msg}")
+                if on_progress:
+                    on_progress("failed", name, email, f"SMTP Error: {err_msg}")
+                
+                # Detect Gmail daily limits (550) or account restrictions
+                if "550" in err_msg or "limit exceeded" in err_msg.lower():
+                    log("Daily sending limit reached. Stopping bulk process.")
+                    break
+                failed_count += 1
+            except (smtplib.SMTPServerDisconnected, smtplib.SMTPConnectError, ConnectionError) as e:
+                log(f"Connection lost during send: {e}. Stopping bulk process.")
+                break
             except Exception as e:
                 log(f"Failed to send to {name} <{email}>: {e}")
                 if on_progress:
@@ -267,8 +305,15 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
                 break
 
             time.sleep(delay)
+    except Exception as e:
+        log(f"Bulk process encountered an error: {e}")
+        raise
     finally:
-        server.quit()
+        if server:
+            try:
+                server.quit()
+            except:
+                pass
 
     log(f"\n=== Done: {sent_count} sent, {failed_count} failed ===")
     log(f"Remaining contacts in Excel: {total_remaining - sent_count}")
