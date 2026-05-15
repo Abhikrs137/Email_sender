@@ -23,6 +23,7 @@ CONFIG_FILE = "config/sender_config.json"
 LOG_FILE = "logs/email_log.txt"
 APP_DIR = Path(__file__).resolve().parent.parent
 ENV_FILE = APP_DIR / ".env"
+TMP_DIR = Path(os.getenv("TMPDIR", "/tmp"))
 
 
 def load_dotenv_file():
@@ -85,10 +86,16 @@ def log(message):
     line = f"[{timestamp}] {message}"
     console_encoding = sys.stdout.encoding or "utf-8"
     print(line.encode(console_encoding, errors="replace").decode(console_encoding))
-    log_path = resolve_path(LOG_FILE)
-    log_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(log_path, "a", encoding="utf-8") as f:
-        f.write(line + "\n")
+    log_paths = [resolve_path(LOG_FILE), TMP_DIR / "email_log.txt"]
+
+    for log_path in log_paths:
+        try:
+            log_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(log_path, "a", encoding="utf-8") as f:
+                f.write(line + "\n")
+            return
+        except OSError:
+            continue
 
 
 def load_contacts(excel_path):
@@ -302,7 +309,10 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
                 log(f"Sent to {name} <{email}>")
                 if on_progress:
                     on_progress("sent", name, email, f"Sent to {name} <{email}>")
-                remove_contact_entry(excel_path, name, email)
+                try:
+                    remove_contact_entry(excel_path, name, email)
+                except Exception as remove_err:
+                    log(f"Warning: sent email but could not remove Excel row for {name} <{email}>: {remove_err}")
                 sent_count += 1
             except (smtplib.SMTPResponseException, smtplib.SMTPRecipientsRefused, smtplib.SMTPSenderRefused) as e:
                 err_msg = str(e)

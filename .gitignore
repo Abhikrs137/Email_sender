@@ -1,2 +1,5 @@
 /.env
-/logs/email.txt
+/config/owner_credentials.json
+/logs/
+__pycache__/
+*.pyc

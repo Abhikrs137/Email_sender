@@ -1526,3 +1526,6 @@
 [2026-05-14 14:40:03] 
 === Done: 1 sent, 0 failed ===
 [2026-05-14 14:40:03] Remaining contacts in Excel: 1834
+[2026-05-15 19:46:01] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-15 19:46:03] Connected to Gmail SMTP (Port 587).
+[2026-05-15 19:46:06] Sent to TETS <abhikrs333@gmail.com>
