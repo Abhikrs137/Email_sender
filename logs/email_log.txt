@@ -480,3 +480,1049 @@
 [2026-05-12 12:39:09] Sent to . <hr@endeavourtechnologies.co.in>
 [2026-05-13 01:53:44] Connected to Gmail SMTP.
 [2026-05-13 01:53:48] Sent to Abhishek <abhikrs333@gmail.com>
+[2026-05-13 02:39:53] Connected to Gmail SMTP.
+[2026-05-13 02:39:56] Sent to All <jobs@mavrictech.com>
+[2026-05-13 09:58:08] Contacts remaining: 935
+[2026-05-13 09:58:08] Sending up to 200 emails today (200 will be sent).
+[2026-05-13 09:58:10] Connected to Gmail SMTP.
+[2026-05-13 09:58:13] Sent to Pavithra <pavithra.bopanna@entropiktech.com>
+[2026-05-13 09:58:18] Sent to Pavithradesai <pavithra.desai@infracloud.io>
+[2026-05-13 09:58:23] Sent to Payal <payal@highpeaksw.com>
+[2026-05-13 09:58:29] Sent to Payal <payal@safe.security>
+[2026-05-13 09:58:34] Sent to Payyalore <payyalore.sainath@larvol.com>
+[2026-05-13 09:58:39] Sent to Pearl <pdsouza@cartesianconsulting.com>
+[2026-05-13 09:58:44] Sent to Peeyush <peeyush.singhal@monsterindia.com>
+[2026-05-13 09:58:49] Sent to Peterson <peterson.pereira@cignex.com>
+[2026-05-13 09:58:54] Sent to Phani <phani@eminds.ai>
+[2026-05-13 09:58:59] Sent to Phani <phani.kumar@soroco.com>
+[2026-05-13 09:59:04] Sent to Phanidhar <phanidhars@dextara.com>
+[2026-05-13 09:59:09] Sent to Philip <philip.manikya@posidex.com>
+[2026-05-13 09:59:15] Sent to Piali <piali.goswami@optimusinfo.com>
+[2026-05-13 09:59:20] Sent to Piyali <piyalib@digitalaptech.com>
+[2026-05-13 09:59:25] Sent to Piyush <piyush.naik@digivalet.com>
+[2026-05-13 09:59:30] Sent to Piyush <piyush.r@apna.co>
+[2026-05-13 09:59:36] Sent to Pooja <pooja@agri10x.com>
+[2026-05-13 09:59:41] Sent to Pooja <pooja@zentekinfosoft.com>
+[2026-05-13 09:59:46] Sent to Pooja <pooja.arora@minosha.in>
+[2026-05-13 09:59:51] Sent to Pooja <pooja.m@aress.com>
+[2026-05-13 09:59:57] Sent to Pooja <pooja.madappa@netradyne.com>
+[2026-05-13 10:00:02] Sent to Pooja <pooja.malawade@nanostuffs.com>
+[2026-05-13 10:00:08] Sent to Pooja <pooja@avestacs.com>
+[2026-05-13 10:00:14] Sent to Pooja <pooja@incnut.com>
+[2026-05-13 10:00:19] Sent to Pooja <pooja.pareek@myglamm.com>
+[2026-05-13 10:00:24] Sent to Poonam <poonam@nuvento.com>
+[2026-05-13 10:00:30] Sent to Poonam <poonam.b@cynetsystems.com>
+[2026-05-13 10:00:35] Sent to Poonam <poonam.yadav@webmobril.com>
+[2026-05-13 10:00:40] Sent to Poornima <poornima.gowda@fortanix.com>
+[2026-05-13 10:00:45] Sent to Poornima <poornima.narayanappa@symphonysummit.com>
+[2026-05-13 10:00:51] Sent to Poornima <pp@yodlee.com>
+[2026-05-13 10:00:56] Sent to Poornima <poornima@testvagrant.com>
+[2026-05-13 10:01:01] Sent to Poornima <poornima.s@d4insight.com>
+[2026-05-13 10:01:07] Sent to Poulo <poulo@goleadingit.com>
+[2026-05-13 10:01:12] Sent to Prabha <prabha.giri@acropolisinfotech.com>
+[2026-05-13 10:01:17] Sent to Prabha <prabha.masilamani@plivo.com>
+[2026-05-13 10:01:23] Sent to Prabhu <prabhu@atmecs.com>
+[2026-05-13 10:01:28] Sent to Prachi <prachi.singh@vinculumgroup.com>
+[2026-05-13 10:01:34] Sent to Pradeep <pradeep.boiri@otsi.co.in>
+[2026-05-13 10:01:39] Sent to Pradeep <pradeep.chigurupati@mindtickle.com>
+[2026-05-13 10:01:44] Sent to Pradeep <pradeep.k@mindteck.com>
+[2026-05-13 10:01:49] Sent to Pradeep <krishnanp@kaizentek.com>
+[2026-05-13 10:01:55] Sent to Pradeep <pradeep.kumar@andortech.com>
+[2026-05-13 10:02:00] Sent to Pradeep <pradeepkumar@newtglobalcorp.com>
+[2026-05-13 10:02:05] Sent to Pradeep <pradeep@bidgely.com>
+[2026-05-13 10:02:11] Sent to Pradeep <pradeep_r@3dplmsoftware.com>
+[2026-05-13 10:02:16] Sent to Pradeep <pradeep@digiryte.com>
+[2026-05-13 10:02:21] Sent to Pradeep <pradeep@servosys.com>
+[2026-05-13 10:02:26] Sent to Pradep <pradep.s@zuper.co>
+[2026-05-13 10:02:32] Sent to Pradnya <pradnya.kulkarni@afourtech.com>
+[2026-05-13 10:02:37] Sent to Prafull <pjaiswal@xento.com>
+[2026-05-13 10:02:43] Sent to Pragati <pragati@aryacma.co.in>
+[2026-05-13 10:02:48] Sent to Pragati <pkumar@aienterprise.com>
+[2026-05-13 10:02:53] Sent to Pragati <pragati@onamagroup.com>
+[2026-05-13 10:02:59] Sent to Pragati <pragati.tilve@creativecapsule.com>
+[2026-05-13 10:03:04] Sent to Pragatii <hr.orbit@orbitindia.net>
+[2026-05-13 10:03:09] Sent to Pragya <pragya.khanna@lirik.io>
+[2026-05-13 10:03:15] Sent to Pragya <pragya.parashar@claritusconsulting.com>
+[2026-05-13 10:03:20] Sent to Prajeeth <prajeeth.g@winwire.com>
+[2026-05-13 10:03:25] Sent to Prajeetha <prajeetha.prasad@thoughtspot.com>
+[2026-05-13 10:03:30] Sent to Prakash <prakash.b@payoda.com>
+[2026-05-13 10:03:36] Sent to Prakash <prakashk@newtglobalcorp.com>
+[2026-05-13 10:03:41] Sent to Prakash <prakashpn@suntecgroup.com>
+[2026-05-13 10:03:46] Sent to Prakash <prakash.rc@kriyanxw.com>
+[2026-05-13 10:03:51] Sent to Prakyath <prakyath.k@verifaya.com>
+[2026-05-13 10:03:57] Sent to Pramodh <pramodh.karumbaiah@trell.co>
+[2026-05-13 10:04:02] Sent to Pranab <pranab.mishra@criticalriver.com>
+[2026-05-13 10:04:07] Sent to Pranali <pranali.shinde@featsystems.com>
+[2026-05-13 10:04:12] Sent to Pranay <pranay@precisiontechcorp.com>
+[2026-05-13 10:04:17] Sent to Pranitha <pranitha@tyfone.com>
+[2026-05-13 10:04:23] Sent to Prasaanth <prasaanth.s@ivymobility.com>
+[2026-05-13 10:04:28] Sent to Prasad <prasad.bagawade@infrasofttech.com>
+[2026-05-13 10:04:33] Sent to Prasad <prasad_k@abmindia.com>
+[2026-05-13 10:04:39] Sent to Prasad <prasad_narayan@neovasolutions.in>
+[2026-05-13 10:04:44] Sent to Prasad <prasad_r@preludesys.com>
+[2026-05-13 10:04:49] Sent to Prasanna <prasanna.soparkar@steeplap.com>
+[2026-05-13 10:04:54] Sent to Prashant <prashant.dubey@techilaservices.com>
+[2026-05-13 10:05:00] Sent to Prashant <prashant@kljindia.com>
+[2026-05-13 10:05:05] Sent to Prashant <prashant.parashar@clevertap.com>
+[2026-05-13 10:05:10] Sent to Prashant <prashant@diverselynx.com>
+[2026-05-13 10:05:16] Sent to Prashanth <prashanth.kulkarni@v2solutions.com>
+[2026-05-13 10:05:21] Sent to Prashasti <prashasti@muvi.com>
+[2026-05-13 10:05:26] Sent to Prasheel <prasheel.pardhe@trantorinc.com>
+[2026-05-13 10:05:32] Sent to Prastily <prastily@vaisesika.in>
+[2026-05-13 10:05:37] Sent to Pratheek <pratheek.machaya@valentabpo.com>
+[2026-05-13 10:05:42] Sent to Prathyusha <prathyusha@5cnetwork.com>
+[2026-05-13 10:05:47] Sent to Pratik <pratik.m@baazigames.com>
+[2026-05-13 10:05:53] Sent to Pratim <pratim.purkait@rtns.in>
+[2026-05-13 10:05:58] Sent to Pratyush <pratyush.sinha@catalystone.com>
+[2026-05-13 10:06:03] Sent to Praveen <praveen.gupta@amantyatech.com>
+[2026-05-13 10:06:08] Sent to Praveen <pjoseph@suyati.com>
+[2026-05-13 10:06:14] Sent to Praveen <praveen@maxval.com>
+[2026-05-13 10:06:19] Sent to Praveen <praveen.kunta@incture.com>
+[2026-05-13 10:06:24] Sent to Praveen <praveen.nambiar@rigvedtech.com>
+[2026-05-13 10:06:30] Sent to Praveen <praveen.r@softpath.net>
+[2026-05-13 10:06:35] Sent to Praveen <praveen.singh@xduce.com>
+[2026-05-13 10:06:40] Sent to Praveen <praveen.zore@agiliad.com>
+[2026-05-13 10:06:46] Sent to Pravin <pravin.kankane@flo-group.com>
+[2026-05-13 10:06:51] Sent to Pravin <pravin.subba@tanla.com>
+[2026-05-13 10:06:56] Sent to Preeth <preeth.joseph@bridgei2i.com>
+[2026-05-13 10:07:01] Sent to Preetha <preetha@frontier.in>
+[2026-05-13 10:07:07] Sent to Preetham <preetham.singh@tanla.com>
+[2026-05-13 10:07:12] Sent to Preethy <preethy.paul@insemitech.com>
+[2026-05-13 10:07:18] Sent to Preeti <preeti.das@tripstack.com>
+[2026-05-13 10:07:23] Sent to Preeti <preeti.kalyankar@mosambee.com>
+[2026-05-13 10:07:28] Sent to Preeti <pmani@verisys.com>
+[2026-05-13 10:07:33] Sent to Preeti <preeti.mathur@eproductivitysoftware.com>
+[2026-05-13 10:07:39] Sent to Preeti <preeti.msw@wundermanthompson.com>
+[2026-05-13 10:07:44] Sent to Preeti <preeti.phansalkar@clariontech.com>
+[2026-05-13 10:07:49] Sent to Preety <preety@cozentus.com>
+[2026-05-13 10:07:54] Sent to Prem <prem.nair@toshiba-tsip.com>
+[2026-05-13 10:07:59] Sent to Prerna <prerna.kohli@cyware.com>
+[2026-05-13 10:08:05] Sent to Prince <prince.kumar@innohubtechnologies.com>
+[2026-05-13 10:08:10] Sent to Priscilla <priscilla.f@mantralabsglobal.com>
+[2026-05-13 10:08:15] Sent to Pritha <pritha@near.com>
+[2026-05-13 10:08:21] Sent to Priti <priti.mhatre@zaggle.in>
+[2026-05-13 10:08:26] Sent to Priya <priya.bagla@fullestop.com>
+[2026-05-13 10:08:31] Sent to Priya <priya.bhogineni@yexle.com>
+[2026-05-13 10:08:36] Sent to Priya <priya.malhotra@daffodilsw.com>
+[2026-05-13 10:08:41] Sent to Priya <priya@flexasoft.com>
+[2026-05-13 10:08:46] Sent to Priya <priya@congruentindia.com>
+[2026-05-13 10:08:52] Sent to Priya <priya.subramanian@talview.com>
+[2026-05-13 10:08:57] Sent to Priya <priya@jungleegames.com>
+[2026-05-13 10:09:04] Sent to Priya <priya@quartic.ai>
+[2026-05-13 10:09:09] Sent to Priyadarshini <priyadarshini@tatacliq.com>
+[2026-05-13 10:09:15] Sent to Priyadarshini <priyadarshini.torke@jobsforher.com>
+[2026-05-13 10:09:20] Sent to Priyanka <priyanka.basak@cbnits.com>
+[2026-05-13 10:09:25] Sent to Priyanka <priyanka.grover@fifthnote.co>
+[2026-05-13 10:09:30] Sent to Priyanka <pjaiswal@paktolus.com>
+[2026-05-13 10:09:35] Sent to Priyanka <priyankam@chimeratechnologies.com>
+[2026-05-13 10:09:41] Sent to Priyanka <priyanka.priyadarshini@hcl.com>
+[2026-05-13 10:09:46] Sent to Priyanka <priyanka@freshersworld.com>
+[2026-05-13 10:09:51] Sent to Priyanka <priyanka.s@decimaltech.com>
+[2026-05-13 10:09:57] Sent to Priyanka <priyankashu@flock.com>
+[2026-05-13 10:10:02] Sent to Priyom <priyom.barooah@kritikalvision.ai>
+[2026-05-13 10:10:07] Sent to Prof <prof.dutt@onebcg.com>
+[2026-05-13 10:10:13] Sent to Pronami <pronami.borah@travclan.com>
+[2026-05-13 10:10:18] Sent to Puja <puja@affle.com>
+[2026-05-13 10:10:23] Sent to Punitha <punitha.n@zucisystems.com>
+[2026-05-13 10:10:28] Sent to Purva <purvap@zenoti.com>
+[2026-05-13 10:10:39] Sent to Pushpendra <pushpendra.y@cynetsystems.com>
+[2026-05-13 10:10:44] Sent to Pushpinder <pushpinder.singh@se2.com>
+[2026-05-13 10:10:49] Sent to Rabi <rabi@flobiz.in>
+[2026-05-13 10:10:54] Sent to Radhakrishna <radhakrishnak@spanidea.com>
+[2026-05-13 10:10:57] Failed to send to Radhakrishnan <r.nair@suntecgroup.com>: (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-368edf4d92asm1511691a91.8 - gsmtp')
+[2026-05-13 10:10:59] Failed to send to Radhika <radhika.boppana@blackstraw.ai>: Connection unexpectedly closed
+[2026-05-13 10:11:01] Failed to send to Radhika <radhika.khurana@impactanalytics.co>: please run connect() first
+[2026-05-13 10:11:03] Failed to send to Raghava <raghava.krishna@nslhub.com>: please run connect() first
+[2026-05-13 10:11:05] Failed to send to Raghavendra <raghavendra@syscloud.com>: please run connect() first
+[2026-05-13 10:11:07] Failed to send to Raghavendra <raghavendra@fidelisgroup.in>: please run connect() first
+[2026-05-13 10:11:10] Failed to send to Raghunath <rgawde@softcell.com>: please run connect() first
+[2026-05-13 10:11:12] Failed to send to Ragini <ragini.m@seanergydigital.com>: please run connect() first
+[2026-05-13 10:11:14] Failed to send to Rahul <rahul.a@softpath.net>: please run connect() first
+[2026-05-13 10:11:16] Failed to send to Rahul <rahul.bansode@digitalf5.com>: please run connect() first
+[2026-05-13 10:11:18] Failed to send to Rahul <rahul@netmagicsolutions.com>: please run connect() first
+[2026-05-13 10:11:20] Failed to send to Rahul <rahul.inamdar@infracloud.io>: please run connect() first
+[2026-05-13 10:11:22] Failed to send to Rahul <rahul.vishawantham@vaave.com>: please run connect() first
+[2026-05-13 10:11:24] Failed to send to Raj <rabubakkar@amrepinspect.com>: please run connect() first
+[2026-05-13 10:11:26] Failed to send to Raj <raj.agarwal@360degreecloud.in>: please run connect() first
+[2026-05-13 10:11:28] Failed to send to Raj <rajbose@avataar.me>: please run connect() first
+[2026-05-13 10:11:30] Failed to send to Raj <r.kish@selectsys.com>: please run connect() first
+[2026-05-13 10:11:32] Failed to send to Raja <raja.pamidi@nttdata.com>: please run connect() first
+[2026-05-13 10:11:34] Failed to send to Rajagopal <rajagopal@antra.com>: please run connect() first
+[2026-05-13 10:11:36] Failed to send to Rajani <rajanip@resilienceitusa.com>: please run connect() first
+[2026-05-13 10:11:38] Failed to send to Rajani <rajani.siddhartha@dreamorbit.com>: please run connect() first
+[2026-05-13 10:11:40] Failed to send to Rajashree <m.rajashree@xangars.com>: please run connect() first
+[2026-05-13 10:11:42] Failed to send to Rajat <rajatb@damcogroup.com>: please run connect() first
+[2026-05-13 10:11:44] Failed to send to Rajat <rajat.das@ondemandagility.com>: please run connect() first
+[2026-05-13 10:11:46] Bulk sending stopped by user.
+[2026-05-13 10:18:07] Contacts remaining: 791
+[2026-05-13 10:18:07] Sending up to 200 emails today (200 will be sent).
+[2026-05-13 10:18:08] Connected to Gmail SMTP.
+[2026-05-13 10:18:09] Failed to send to Radhakrishnan <r.nair@suntecgroup.com>: (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 d2e1a72fcca58-839682a103esm31825335b3a.51 - gsmtp')
+[2026-05-13 10:18:11] Failed to send to Radhika <radhika.boppana@blackstraw.ai>: Connection unexpectedly closed
+[2026-05-13 10:18:13] Failed to send to Radhika <radhika.khurana@impactanalytics.co>: please run connect() first
+[2026-05-13 10:18:15] Failed to send to Raghava <raghava.krishna@nslhub.com>: please run connect() first
+[2026-05-13 10:18:17] Failed to send to Raghavendra <raghavendra@syscloud.com>: please run connect() first
+[2026-05-13 10:18:19] Failed to send to Raghavendra <raghavendra@fidelisgroup.in>: please run connect() first
+[2026-05-13 10:18:21] Bulk sending stopped by user.
+[2026-05-13 11:10:29] Contacts remaining: 791
+[2026-05-13 11:10:29] Sending up to 200 emails today (200 will be sent).
+[2026-05-13 11:10:30] Connected to Gmail SMTP.
+[2026-05-13 11:10:34] Sent to Radhakrishnan <r.nair@suntecgroup.com>
+[2026-05-13 11:10:39] Sent to Radhika <radhika.boppana@blackstraw.ai>
+[2026-05-13 11:10:45] Sent to Radhika <radhika.khurana@impactanalytics.co>
+[2026-05-13 11:10:50] Sent to Raghava <raghava.krishna@nslhub.com>
+[2026-05-13 11:10:56] Sent to Raghavendra <raghavendra@syscloud.com>
+[2026-05-13 11:11:01] Sent to Raghavendra <raghavendra@fidelisgroup.in>
+[2026-05-13 11:11:07] Sent to Raghunath <rgawde@softcell.com>
+[2026-05-13 11:11:12] Sent to Ragini <ragini.m@seanergydigital.com>
+[2026-05-13 11:11:18] Sent to Rahul <rahul.a@softpath.net>
+[2026-05-13 11:11:23] Sent to Rahul <rahul.bansode@digitalf5.com>
+[2026-05-13 11:11:29] Sent to Rahul <rahul@netmagicsolutions.com>
+[2026-05-13 11:11:34] Sent to Rahul <rahul.inamdar@infracloud.io>
+[2026-05-13 11:11:40] Sent to Rahul <rahul.vishawantham@vaave.com>
+[2026-05-13 11:11:46] Sent to Raj <rabubakkar@amrepinspect.com>
+[2026-05-13 11:11:51] Sent to Raj <raj.agarwal@360degreecloud.in>
+[2026-05-13 11:11:57] Sent to Raj <rajbose@avataar.me>
+[2026-05-13 11:12:02] Sent to Raj <r.kish@selectsys.com>
+[2026-05-13 11:12:08] Sent to Raja <raja.pamidi@nttdata.com>
+[2026-05-13 11:12:13] Sent to Rajagopal <rajagopal@antra.com>
+[2026-05-13 11:12:19] Sent to Rajani <rajanip@resilienceitusa.com>
+[2026-05-13 11:12:24] Sent to Rajani <rajani.siddhartha@dreamorbit.com>
+[2026-05-13 11:12:30] Sent to Rajashree <m.rajashree@xangars.com>
+[2026-05-13 11:12:35] Sent to Rajat <rajatb@damcogroup.com>
+[2026-05-13 11:12:41] Sent to Rajat <rajat.das@ondemandagility.com>
+[2026-05-13 11:12:46] Sent to Rajat <rajat.mehra@nxtgen.com>
+[2026-05-13 11:12:52] Sent to Rajeeb <rajeeb@q3tech.com>
+[2026-05-13 11:12:58] Sent to Rajeev <rajeev.bhardwaj@sunlife.com>
+[2026-05-13 11:13:03] Sent to Rajeev <rajeev.s@algonomy.com>
+[2026-05-13 11:13:09] Sent to Rajeev <rsen@medline.com>
+[2026-05-13 11:13:14] Sent to Rajendra <rajendra.bn@exilant.com>
+[2026-05-13 11:13:20] Sent to Rajesh <rajeshn@techaffinity.com>
+[2026-05-13 11:13:25] Sent to Rajesh <rajesh@dremio.com>
+[2026-05-13 11:13:30] Sent to Rajesh <rajesh.babu@softobiz.com>
+[2026-05-13 11:13:36] Sent to Rajesh <rajeshb@coffeebeans.io>
+[2026-05-13 11:13:41] Sent to Rajesh <rajesh.kethepalle@electrifai.net>
+[2026-05-13 11:13:47] Sent to Rajesh <rajeshm@damcogroup.com>
+[2026-05-13 11:13:52] Sent to Rajesh <rajesh@fissionlabs.com>
+[2026-05-13 11:13:57] Sent to Rajesh <rajesh.yadav@gstn.org.in>
+[2026-05-13 11:14:03] Sent to Rajitha <rajitha.jaffer@jmrinfotech.com>
+[2026-05-13 11:14:08] Sent to Rajiv <rkumar@cendyn.com>
+[2026-05-13 11:14:13] Sent to Rajneesh <rajneesh.malik@mindtickle.com>
+[2026-05-13 11:14:19] Sent to Rajni <rajni@growexx.com>
+[2026-05-13 11:14:24] Sent to Rajni <rajni.noronha@cignex.com>
+[2026-05-13 11:14:30] Sent to Rajni <rajni.singh@indinnovation.com>
+[2026-05-13 11:14:35] Sent to Rajsekhar <rajsekhar.dangeti@zensark.com>
+[2026-05-13 11:14:41] Sent to Raju <raju.vatsavayi@nsight-inc.com>
+[2026-05-13 11:14:46] Sent to Rajyashree <rajyashree@technodysis.com>
+[2026-05-13 11:14:52] Sent to Rakesh <rakesh.arora@skilrock.com>
+[2026-05-13 11:14:57] Sent to Rakesh <rakesh.arora@sugaldamani.com>
+[2026-05-13 11:15:03] Sent to Rakesh <rakesh@taazaa.com>
+[2026-05-13 11:15:08] Sent to Rakesh <rakesh.badam@tomiaglobal.com>
+[2026-05-13 11:15:14] Sent to Rakesh <rakesh.e@63moons.com>
+[2026-05-13 11:15:19] Sent to Rakesh <rakesh.kumar@anetcorp.com>
+[2026-05-13 11:15:25] Sent to Rakesh <rakesh@mergenit.com>
+[2026-05-13 11:15:30] Sent to Rakesh <rakesh.vishwakarma@tejora.com>
+[2026-05-13 11:15:35] Sent to Rakshita <rakshita@easyeat.ai>
+[2026-05-13 11:15:41] Sent to Ram <ram.r@kairostech.com>
+[2026-05-13 11:15:46] Sent to Ram <ram.varadamoorthy@ducenit.com>
+[2026-05-13 11:15:52] Sent to Rama <rama.c@soroco.com>
+[2026-05-13 11:15:57] Sent to Ramakrishna <ramakrishnac@msrcosmos.com>
+[2026-05-13 11:16:03] Sent to Ramakrishna <ramakrishna.jampala@paradigmit.com>
+[2026-05-13 11:16:08] Sent to Raman <rtsk@seec.com>
+[2026-05-13 11:16:14] Sent to Ramani <ramani@hirect.in>
+[2026-05-13 11:16:19] Sent to Ramanjit <ramanjit.goswami@inadev.com>
+[2026-05-13 11:16:24] Sent to Ramanujam <ramanujam.cs@ifocussystec.com>
+[2026-05-13 11:16:30] Sent to Ramaprasad <ramaprasad.baleguli@v2solutions.com>
+[2026-05-13 11:16:35] Sent to Ramchandra <head.hr@abmindia.com>
+[2026-05-13 11:16:41] Sent to Ramesh <rmantana@evoketechnologies.com>
+[2026-05-13 11:16:46] Sent to Ramesh <ramesh.parepalli@purviewservices.com>
+[2026-05-13 11:16:51] Sent to Ramesh <ramesh.talwar@crmnext.com>
+[2026-05-13 11:16:57] Sent to Ramkrishna <ramkrishna.sahu@ceptes.com>
+[2026-05-13 11:17:02] Sent to Ramya <eradi.ramya@aujas.com>
+[2026-05-13 11:17:08] Sent to Ramya <ramya.hv@profinch.com>
+[2026-05-13 11:17:13] Sent to Ramya <ramya.menon@edifecs.com>
+[2026-05-13 11:17:18] Sent to Ramya <ramya.ramachandran@cloudsek.com>
+[2026-05-13 11:17:24] Sent to Ramya <ramya.s@greyorange.com>
+[2026-05-13 11:17:30] Sent to Ramya <ramya.venkatesh@profinch.com>
+[2026-05-13 11:17:35] Sent to Rana <rana.bose@emds.com>
+[2026-05-13 11:17:40] Sent to Ranjan <ranjan.hooda@rpsconsulting.in>
+[2026-05-13 11:17:46] Sent to Ranjana <ranjana@finessedirect.com>
+[2026-05-13 11:17:51] Sent to Ranjani <ranjani.sunkara@incture.com>
+[2026-05-13 11:17:57] Sent to Ranjeeta <ranjeeta.d@iksula.com>
+[2026-05-13 11:18:03] Sent to Ranjit <ranjitd@spancobpo.com>
+[2026-05-13 11:18:08] Sent to Ranjith <ranjith.vp@aujas.com>
+[2026-05-13 11:18:14] Sent to Ranjitha <ranjitha.s@healthasyst.com>
+[2026-05-13 11:18:19] Sent to Ranju <ranju@eateam.com>
+[2026-05-13 11:18:25] Sent to Rashmi <rashmi.chauhan@rategain.com>
+[2026-05-13 11:18:30] Sent to Rashmi <rashmi.george@niveussolutions.com>
+[2026-05-13 11:18:36] Sent to Rashmi <rashmi.gupte@wisdmlabs.com>
+[2026-05-13 11:18:41] Sent to Rashmi <rashmi.taksande@softdel.com>
+[2026-05-13 11:18:47] Sent to Rashmita <rashmita.pradhan@teklink.com>
+[2026-05-13 11:18:52] Sent to Rashmme <rashmme.eshwar@datacore.com>
+[2026-05-13 11:18:58] Sent to Ratan <ratan.dalal@global-csg.com>
+[2026-05-13 11:19:03] Sent to Ratika <ratika.mirji@neviton.com>
+[2026-05-13 11:19:08] Sent to Ratish <ratish@maintec.com>
+[2026-05-13 11:19:14] Sent to Ratish <ratish.r@iantindia.com>
+[2026-05-13 11:19:19] Sent to Ravdeep <ravdeep.singh@sourcefuse.com>
+[2026-05-13 11:19:25] Sent to Raveendra <raveendra.datla@smartims.com>
+[2026-05-13 11:19:31] Sent to Ravi <ravi.bhushan@techilaservices.com>
+[2026-05-13 11:19:36] Sent to Ravi <ravi.devara@tammina.com>
+[2026-05-13 11:19:42] Sent to Ravi <ravi.gurunathan@ivalue.co.in>
+[2026-05-13 11:19:47] Sent to Ravi <ravi.k@crmit.com>
+[2026-05-13 11:19:53] Sent to Ravi <ravi.kasinadhuni@crmit.com>
+[2026-05-13 11:19:58] Sent to Ravi <ravi.kuchampudi@zenq.com>
+[2026-05-13 11:20:04] Sent to Ravi <ravi.kumar@ample.co.in>
+[2026-05-13 11:20:09] Sent to Ravi <rkumar@saiconinc.com>
+[2026-05-13 11:20:15] Sent to Ravi <ravi.mourya@waisl.in>
+[2026-05-13 11:20:20] Sent to Ravi <ravi.shankar@crmit.com>
+[2026-05-13 11:20:25] Sent to Ravi <ravi@olivetech.com>
+[2026-05-13 11:20:31] Sent to Ravi <ravi.vattikota@itelligencegroup.com>
+[2026-05-13 11:20:36] Sent to Ravichandran <ravichandran@spantechnologyservices.com>
+[2026-05-13 11:20:42] Sent to Ravikumar <ravikumarm@aditiconsulting.com>
+[2026-05-13 11:20:47] Sent to Ravindra <ravindra.dandekar@myglamm.com>
+[2026-05-13 11:20:53] Sent to Ravindra <ravindra.musunuru@prowesssoft.com>
+[2026-05-13 11:20:59] Sent to Ravisankar <ravisankar.velidi@increff.com>
+[2026-05-13 11:21:04] Sent to Ravish <ravish.chadha@niyuj.com>
+[2026-05-13 11:21:09] Sent to Ravishanker <ravishanker.kannan@solverminds.com>
+[2026-05-13 11:21:15] Sent to Ravitha <ravitha.devasenapathy@epikindifi.com>
+[2026-05-13 11:21:21] Sent to Ravneet <rkaur@primusglobal.com>
+[2026-05-13 11:21:26] Sent to Ray <ralbro@stand8.io>
+[2026-05-13 11:21:31] Sent to Reddy <reddy@mantratechno.com>
+[2026-05-13 11:21:37] Sent to Reena <reena.bajaj@solverminds.com>
+[2026-05-13 11:21:42] Sent to Reena <reena@matellio.com>
+[2026-05-13 11:21:48] Sent to Reena <reena.v@adani.com>
+[2026-05-13 11:21:53] Sent to Reenaa <reenaa.s@63moons.com>
+[2026-05-13 11:21:59] Sent to Rehan <rehan.abdi@kiwitech.com>
+[2026-05-13 11:22:04] Sent to Rehana <rehana.inamdar@smarteinc.com>
+[2026-05-13 11:22:09] Sent to Rekha <rekha.nair@navis.com>
+[2026-05-13 11:22:15] Sent to Rekha <rekhap@codeforce.com>
+[2026-05-13 11:22:20] Sent to Remi <remi.vaz@sureprep.com>
+[2026-05-13 11:22:25] Sent to Remisa <remisa.dhar@percipere.co>
+[2026-05-13 11:22:31] Sent to Rena <rena.so@endurance.com>
+[2026-05-13 11:22:36] Sent to Rency <rency.hakani@manektech.com>
+[2026-05-13 11:22:42] Sent to Renju <renju.nithin@bridge-global.com>
+[2026-05-13 11:22:47] Sent to Renu <renu.srivastava@agdata.com>
+[2026-05-13 11:22:52] Sent to Reshma <reshma.bopanna@girmiti.com>
+[2026-05-13 11:22:57] Sent to Reshma <reshma.mohan@gemini-us.com>
+[2026-05-13 11:23:03] Sent to Revathi <revathi.venkatesh@ibridgellc.com>
+[2026-05-13 11:23:09] Sent to Revathy <revathy.reddy@glu.com>
+[2026-05-13 11:23:14] Sent to Richa <richa.pande@inatech.com>
+[2026-05-13 11:23:20] Sent to Richie <joseph@purpletalk.com>
+[2026-05-13 11:23:26] Sent to Ridhima <ridhimag@pharmarack.com>
+[2026-05-13 11:23:31] Sent to Rijil <rijil.kannoth@infobelt.com>
+[2026-05-13 11:23:36] Sent to Rima <rima@maropost.com>
+[2026-05-13 11:23:42] Sent to Rimpee <rkukreja@pelican.ai>
+[2026-05-13 11:23:47] Sent to Rinki <rinki.goel@hevodata.com>
+[2026-05-13 11:23:53] Sent to Rinku <rinkuc@lumel.com>
+[2026-05-13 11:23:58] Sent to Rishabh <rishabhkalra@cetpainfotech.com>
+[2026-05-13 11:24:04] Sent to Rishabh <rishabh.jain@angara.com>
+[2026-05-13 11:24:10] Sent to Ritesh <radvani@thegoldensource.com>
+[2026-05-13 11:24:15] Sent to Ritika <rjatana@docmation.com>
+[2026-05-13 11:24:21] Sent to Ritika <ritika.jha@codelogicx.com>
+[2026-05-13 11:24:26] Sent to Ritika <ritika.malhotra@dotpe.in>
+[2026-05-13 11:24:32] Sent to Ritika <ritika.naithani@infollion.com>
+[2026-05-13 11:24:37] Sent to Ritu <ritu.malhotra@zemosolabs.com>
+[2026-05-13 11:24:43] Sent to Robin <robin@burgeonits.net>
+[2026-05-13 11:24:48] Sent to Robin <robin.massey@fivesdigital.com>
+[2026-05-13 11:24:53] Sent to Robin <robin.thomas@ecsfin.com>
+[2026-05-13 11:24:59] Sent to Rohini <rohini@innobox.com>
+[2026-05-13 11:25:04] Sent to Rohini <rohini.radhakrishnan@ideas2it.com>
+[2026-05-13 11:25:10] Sent to Rohini <rohini.rai@taazaa.com>
+[2026-05-13 11:25:15] Sent to Rohini <rohiniw@nitorinfotech.com>
+[2026-05-13 11:25:21] Sent to Rohit <rohit.jain@kalelogistics.com>
+[2026-05-13 11:25:26] Sent to Rohit <rohit@mindpooltech.com>
+[2026-05-13 11:25:32] Sent to Rohit <rohit.minton@hpiinc.com>
+[2026-05-13 11:25:37] Sent to Rohit <rohit.singh@blucognition.ai>
+[2026-05-13 11:25:42] Sent to Rohit <rsingh@issquaredinc.com>
+[2026-05-13 11:25:48] Sent to Roli <roli.singh@vfislk.com>
+[2026-05-13 11:25:53] Sent to Roohi <roohi.syeda@forecastera.com>
+[2026-05-13 11:25:59] Sent to Roopa <roopa.g@aujas.com>
+[2026-05-13 11:26:04] Sent to Roopa <roopa.rajesh@bobcares.com>
+[2026-05-13 11:26:10] Sent to Roopali <roopali@aitglobalinc.com>
+[2026-05-13 11:26:15] Sent to Roshan <nair.roshan@tcs.com>
+[2026-05-13 11:26:21] Sent to Roshan <roshan.thomas@ivldsp.com>
+[2026-05-13 11:26:26] Sent to Roshni <roshni.j@netenrich.com>
+[2026-05-13 11:26:31] Sent to Roshni <roshni.s@apty.io>
+[2026-05-13 11:26:37] Sent to Rosy <rosy.mitra@altiusdata.com>
+[2026-05-13 11:26:42] Sent to Roy <roy.mathew@aqmtechnologies.com>
+[2026-05-13 11:26:47] Sent to Roystone <roystone@accubits.com>
+[2026-05-13 11:26:53] Sent to Ruby <ruby.baksi@harbingergroup.com>
+[2026-05-13 11:26:58] Sent to Ruchi <ruchi@clearbit.com>
+[2026-05-13 11:27:04] Sent to Ruchi <ruchi.batra@beetel.in>
+[2026-05-13 11:27:09] Sent to Ruchi <ruchi.bhayani@neutrinotechsystems.com>
+[2026-05-13 11:27:15] Sent to Ruchi <ruchi@prodexnet.com>
+[2026-05-13 11:27:21] Sent to Ruchi <ruchi.jain@lighthouseindia.com>
+[2026-05-13 11:27:27] Sent to Ruchi <ruchi.mago@orange.com>
+[2026-05-13 11:27:32] Sent to Ruchi <ruchi@headspin.io>
+[2026-05-13 11:27:37] Sent to Ruchika <ruchika@rooter.io>
+[2026-05-13 11:27:43] Sent to Ruchika <rkohli@tata.com>
+[2026-05-13 11:27:48] Sent to Ruchika <ruchika.sawhney@cometchat.com>
+[2026-05-13 11:27:54] Sent to Ruchira <ruchira.g@greyorange.com>
+[2026-05-13 11:27:59] Sent to Rupa <rupab@zenoti.com>
+[2026-05-13 11:28:05] Sent to Rupali <rbagaddeo@microproindia.com>
+[2026-05-13 11:28:10] Sent to Rupali <rupali.veerkar@bitwiseglobal.com>
+[2026-05-13 11:28:16] Sent to Rushikesh <rushikesh.rajendra@thegatewaycorp.com>
+[2026-05-13 11:28:21] Sent to Rustom <rustom@1eq.com>
+[2026-05-13 11:28:27] Sent to Sabina <sabina.juvekar@cloudaction.com>
+[2026-05-13 11:28:32] Sent to Sacchin <sacchin.kalkal@vertexglobalservices.com>
+[2026-05-13 11:28:38] Sent to Sachin <sachin.girolla@triarqhealth.com>
+[2026-05-13 11:28:44] Sent to Sadi <sadi.hussain@simpplr.com>
+[2026-05-13 11:28:46] 
+=== Done: 200 sent, 0 failed ===
+[2026-05-13 11:28:46] Remaining contacts in Excel: 591
+[2026-05-13 11:33:34] Contacts remaining: 591
+[2026-05-13 11:33:34] Sending up to 92 emails today (92 will be sent).
+[2026-05-13 11:33:36] Connected to Gmail SMTP.
+[2026-05-13 11:33:39] Sent to Sagar <sagar.arondekar@joshsoftware.com>
+[2026-05-13 11:33:44] Sent to Sagorika <sagorika.s@insync.co.in>
+[2026-05-13 11:33:50] Sent to Sahana <sahana@tecplix.com>
+[2026-05-13 11:33:55] Sent to Sahil <sahil.sharma@rategain.com>
+[2026-05-13 11:34:01] Sent to Sai <sai.b@terasoftware.com>
+[2026-05-13 11:34:06] Sent to Sai <sai.t@saranshinc.com>
+[2026-05-13 11:34:11] Sent to Sailaja <ssaranu@dataeconomy.io>
+[2026-05-13 11:34:16] Sent to Saily <sailyv@futurismtechnologies.com>
+[2026-05-13 11:34:22] Sent to Sajani <sajani@i95dev.com>
+[2026-05-13 11:34:27] Sent to Sajitha <sajitha.nair@antra.com>
+[2026-05-13 11:34:33] Sent to Sakshi <sakshia@winjit.com>
+[2026-05-13 11:34:38] Sent to Sakshi <sakshi.agrawal@solacetechnologies.co.in>
+[2026-05-13 11:34:43] Sent to Sakshi <sakshi.goyal@mtxb2b.com>
+[2026-05-13 11:34:49] Sent to Sakshi <sakshi.themaskar@ceinsys.com>
+[2026-05-13 11:34:54] Sent to Sam <smanohar@cdcsoftware.com>
+[2026-05-13 11:34:59] Sent to Samatha <samathar@ideyalabs.com>
+[2026-05-13 11:35:04] Sent to Sameer <sameer.deo@riaadvisory.com>
+[2026-05-13 11:35:10] Sent to Sameer <sameer.jadhav@tavisca.com>
+[2026-05-13 11:35:16] Sent to Sameer <sameer.kumar@equifax.com>
+[2026-05-13 11:35:21] Sent to Sameer <ssamant@omnicogroup.com>
+[2026-05-13 11:35:27] Sent to Sameera <sameera.chowdry@brainly.com>
+[2026-05-13 11:35:32] Sent to Samidha <samidha.varadkar@63moons.com>
+[2026-05-13 11:35:37] Sent to Samir <samir.dhond@ittiam.com>
+[2026-05-13 11:35:42] Sent to Samir <samir.mehta@skill-mine.com>
+[2026-05-13 11:35:48] Sent to Sanchari <sanchari@polygon.technology>
+[2026-05-13 11:35:53] Sent to Sanchi <sanchis@fiftyfivetech.io>
+[2026-05-13 11:35:58] Sent to Sanchita <sanchita.chakraborty@assetanalytix.com>
+[2026-05-13 11:36:04] Sent to Sandeep <adops@phoenixsoftwares.in>
+[2026-05-13 11:36:09] Sent to Sandhya <snair@catchpoint.com>
+[2026-05-13 11:36:15] Sent to Sandhya <sandhya@singsys.com>
+[2026-05-13 11:36:20] Sent to Sandip <sandipb@prdxn.com>
+[2026-05-13 11:36:25] Sent to Sandip <sandip.raj@cheersin.com>
+[2026-05-13 11:36:30] Sent to Sandipan <sandipan.kar@thegatewaycorp.com>
+[2026-05-13 11:36:36] Sent to Sangeeta <sangeeta.tandon@ionidea.com>
+[2026-05-13 11:36:42] Sent to Sangeetha <sangeethab@sidgs.com>
+[2026-05-13 11:36:47] Sent to Sangeetha <sangeetha@focussoftnet.com>
+[2026-05-13 11:36:53] Sent to Sanghamitra <sroy@aapnainfotech.com>
+[2026-05-13 11:36:58] Sent to Sangita <sangita.nair@buyerforesight.com>
+[2026-05-13 11:37:03] Sent to Sanika <sanika.arora@piri.ai>
+[2026-05-13 11:37:09] Sent to Sanitha <ssingh@in.rm.com>
+[2026-05-13 11:37:14] Sent to Sanjay <sanjay.chandel@joveo.com>
+[2026-05-13 11:37:20] Sent to Sanjay <sanjayj@zenoti.com>
+[2026-05-13 11:37:25] Sent to Sanjay <sanjay.mashere@neml.in>
+[2026-05-13 11:37:30] Sent to Sanjay <sanjay.mirchandani@sttelemediagdc.in>
+[2026-05-13 11:37:36] Sent to Sanjay <sshanmugaum@controlcase.com>
+[2026-05-13 11:37:42] Sent to Sanjay <sanjayv@zenithsoft.com>
+[2026-05-13 11:37:47] Sent to Sanjeeta <sanjeeta@learningspiral.co.in>
+[2026-05-13 11:37:52] Sent to Sanjeev <sanjeev.dhokte@accops.com>
+[2026-05-13 11:37:57] Sent to Sanjeev <sanjeev.kumar@drishinfo.com>
+[2026-05-13 11:38:03] Sent to Sanjeev <sanjeev.rana@crestechsoftware.com>
+[2026-05-13 11:38:08] Sent to Sanjeev <sanjeev.verma@sttelemediagdc.in>
+[2026-05-13 11:38:13] Sent to Sanjukta <sanjukta.biswas@algoworks.com>
+[2026-05-13 11:38:19] Sent to Sankar <snath@macrosoftinc.com>
+[2026-05-13 11:38:24] Sent to Sanketh <sanketh.r@autorabit.com>
+[2026-05-13 11:38:29] Sent to Santosh <santosh@hexagonglobal.in>
+[2026-05-13 11:38:35] Sent to Santosh <santosh@agilecrm.com>
+[2026-05-13 11:38:40] Sent to Santosh <santosh.kamble@clariontechnologies.co.in>
+[2026-05-13 11:38:45] Sent to Santosh <santosh.prajapati@saggezza.com>
+[2026-05-13 11:38:51] Sent to Santosh <santosh.s@telematics4u.com>
+[2026-05-13 11:38:56] Sent to Santosh <santosh.singh@scikey.ai>
+[2026-05-13 11:39:01] Sent to Sanya <sanya.nagpal@leena.ai>
+[2026-05-13 11:39:07] Sent to Sapana <sapana.suresh@trizetto.com>
+[2026-05-13 11:39:12] Sent to Sapna <sapna@codingmart.com>
+[2026-05-13 11:39:18] Sent to Sapna <sapna.sukhrani@milessoft.com>
+[2026-05-13 11:39:23] Sent to Sapna <sapna.verma@mtxb2b.com>
+[2026-05-13 11:39:28] Sent to Sarabjeet <sarabjeet.gill@cloudmoyo.com>
+[2026-05-13 11:39:34] Sent to Sarada <sarada.kandanur@kore.com>
+[2026-05-13 11:39:39] Sent to Sarah <sarah.john@onearchwell.com>
+[2026-05-13 11:39:44] Sent to Saraswathi <saraswathi@vasudhaika.net>
+[2026-05-13 11:39:50] Sent to Sarath <sarath.v@insemitech.com>
+[2026-05-13 11:39:55] Sent to Saravana <saravanakumar@coresolutionsinc.com>
+[2026-05-13 11:40:01] Sent to Saravana <spadmanabhan@coresolutionsinc.com>
+[2026-05-13 11:40:06] Sent to Saravanan <saravanan.muralidharan@janes.com>
+[2026-05-13 11:40:12] Sent to Saravanan <saravanan.thinagarasamy@impigertech.com>
+[2026-05-13 11:40:17] Sent to Sarieka <svaze@montran.com>
+[2026-05-13 11:40:23] Sent to Sarita <sarita@nasscom.in>
+[2026-05-13 11:40:28] Sent to Sarita <sarita.singh@games24x7.com>
+[2026-05-13 11:40:33] Sent to Saroj <saroj.tripathy@muvi.com>
+[2026-05-13 11:40:39] Sent to Sasank <sasank.pandey@hevodata.com>
+[2026-05-13 11:40:45] Sent to Sasikala <sasikala.vedam@prowesssoft.com>
+[2026-05-13 11:40:50] Sent to Sathish <schinnaiah@yodlee.com>
+[2026-05-13 11:40:55] Sent to Sathish <sathish.kumar@valgenesis.com>
+[2026-05-13 11:41:01] Sent to Sathya <sathyaprakash.sekaran@amnet-systems.com>
+[2026-05-13 11:41:06] Sent to Sathyanarayanan <sathyanarayanan@c1exchange.com>
+[2026-05-13 11:41:11] Sent to Satishh <skumar@liquidhub.com>
+[2026-05-13 11:41:17] Sent to Satya <satyak@wilcosource.com>
+[2026-05-13 11:41:22] Sent to Satyanrayana <satyanrayana.s@bbm.com>
+[2026-05-13 11:41:28] Sent to Satyendu <satyendu.naik@kcsitglobal.com>
+[2026-05-13 11:41:33] Sent to Satyodai <satyodai.krovi@eka1.com>
+[2026-05-13 11:41:39] Sent to Saud <saud.zafar@raydeninteractive.com>
+[2026-05-13 11:41:44] Sent to Saumya <saumya.singh@akalinfosys.com>
+[2026-05-13 11:41:50] Sent to Saurabh <saurabh.jadhav@sumerusolutions.com>
+[2026-05-13 11:41:52] 
+=== Done: 92 sent, 0 failed ===
+[2026-05-13 11:41:52] Remaining contacts in Excel: 499
+[2026-05-13 14:04:37] Contacts remaining: 499
+[2026-05-13 14:04:37] Sending up to 50 emails today (50 will be sent).
+[2026-05-13 14:04:37] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-13 14:04:39] Connected to Gmail SMTP (Port 587).
+[2026-05-13 14:04:42] Sent to Saurabh <slion@curologic.com>
+[2026-05-13 14:04:48] Sent to Saurabh <saurabhm@tatainteractive.com>
+[2026-05-13 14:04:54] Sent to Saurabh <saurabh.srivastavaa@stellarinfo.com>
+[2026-05-13 14:04:59] Sent to Saurav <saurav.sanyal@sunlife.com>
+[2026-05-13 14:05:05] Sent to Savitha <skaranth@ipass.com>
+[2026-05-13 14:05:11] Sent to Savitha <savitha.r@colortokens.com>
+[2026-05-13 14:05:17] Sent to Sayanti <sayanti.s@nitorinfotech.com>
+[2026-05-13 14:05:25] Sent to Sayeram <sayeram.balakumar@reflectionsinfos.com>
+[2026-05-13 14:05:30] Sent to Sayyed <hameed@juntrantech.com>
+[2026-05-13 14:05:36] Sent to Sebastian <sebastian.rodriguez@netcore.co.in>
+[2026-05-13 14:05:42] Sent to Seema <seema@heptagon.in>
+[2026-05-13 14:05:48] Sent to Seema <seema.singh@sigtuple.com>
+[2026-05-13 14:05:55] Sent to Selvi <selvi.ganapathi@talentica.com>
+[2026-05-13 14:06:01] Sent to Shagun <shagun.bhunchal@magicedtech.com>
+[2026-05-13 14:06:06] Sent to Shah <shoaib.shah@blazeclan.com>
+[2026-05-13 14:06:12] Sent to Shahed <shahed@quadrantresource.com>
+[2026-05-13 14:06:17] Sent to Shaheen <shaheen@prodevans.com>
+[2026-05-13 14:06:23] Sent to Shail <shail.parashar@testingxperts.com>
+[2026-05-13 14:06:29] Sent to Shailender <shailender@buddi.ai>
+[2026-05-13 14:06:34] Sent to Shailesh <shailesh.banaeet@nitorinfotech.com>
+[2026-05-13 14:06:39] Sent to Shailesh <shailesh@mirafra.com>
+[2026-05-13 14:06:45] Sent to Shaili <shaili.trivedi@volansys.com>
+[2026-05-13 14:06:50] Sent to Shakeel <shakeel@matchpointsolutions.com>
+[2026-05-13 14:06:56] Sent to Shalaka <shalaka.kothawale@bizom.com>
+[2026-05-13 14:07:02] Sent to Shalini <singh.shalini@rxlogix.com>
+[2026-05-13 14:07:08] Sent to Shalini <shalinib@sixsails.com>
+[2026-05-13 14:07:13] Sent to Shalini <shalini@intelegain.com>
+[2026-05-13 14:07:19] Sent to Shalini <shalini.director@accelalpha.com>
+[2026-05-13 14:07:25] Sent to Shalini <shalini.garlapally@dataintensity.com>
+[2026-05-13 14:07:30] Sent to Shalini <shalini.james@deque.com>
+[2026-05-13 14:07:36] Sent to Shalini <shalini@erelego.com>
+[2026-05-13 14:07:41] Sent to Shalini <shalini.pathak@arkinfo.in>
+[2026-05-13 14:07:47] Sent to Shalu <shalu.chinai@indianic.com>
+[2026-05-13 14:07:53] Sent to Shambhavi <shambhavi.sharma@nexval.com>
+[2026-05-13 14:07:58] Sent to Shamika <shamika.kulkarni@infrabeat.com>
+[2026-05-13 14:08:04] Sent to Shamita <shamita.nandi@mjunction.in>
+[2026-05-13 14:08:09] Sent to Shamli <shamli.krishnan@cloudmoyo.com>
+[2026-05-13 14:08:15] Sent to Shamna <shamna.libu@naicoits.com>
+[2026-05-13 14:08:21] Sent to Shams <shams.tabrez@editorialistyx.com>
+[2026-05-13 14:08:26] Sent to Shani <shani.ramakrishnan@ritesoftware.com>
+[2026-05-13 14:08:32] Sent to Shankar <shankar.d@ritesoftware.com>
+[2026-05-13 14:08:38] Sent to Shanthi <shanthi.abayam@solverminds.com>
+[2026-05-13 14:08:44] Sent to Sharad <sharad.srivastava@blumeglobal.com>
+[2026-05-13 14:08:49] Sent to Sharanya <sharanya.g@concord.net>
+[2026-05-13 14:08:55] Sent to Sharat <sharat.m@fivesdigital.com>
+[2026-05-13 14:09:01] Sent to Sharika <sharika.bhatte@spiceworks.com>
+[2026-05-13 14:09:07] Sent to Sharma <sharmar@codeforce.com>
+[2026-05-13 14:09:13] Sent to Sharmila <sharmila@talentployer.com>
+[2026-05-13 14:09:19] Sent to Sharmilaa <sharmilaa.k@evolgence.com>
+[2026-05-13 14:09:24] Sent to Sharon <sharon.manaloor@litmus7.com>
+[2026-05-13 14:09:27] 
+=== Done: 50 sent, 0 failed ===
+[2026-05-13 14:09:27] Remaining contacts in Excel: 449
+[2026-05-14 05:03:04] Contacts remaining: 449
+[2026-05-14 05:03:04] Sending up to 200 emails today (200 will be sent).
+[2026-05-14 05:03:04] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 05:03:06] Connected to Gmail SMTP (Port 587).
+[2026-05-14 05:03:10] Sent to Sharon <sharon.narang@wibmo.com>
+[2026-05-14 05:03:16] Sent to Sharon <sharon.nijhawan@dltlabs.io>
+[2026-05-14 05:03:21] Sent to Sharvari <sharvari.lingayat@milessoft.com>
+[2026-05-14 05:03:27] Sent to Sharwari <sharwari.shah@revgurus.com>
+[2026-05-14 05:03:33] Sent to Shashank <shashank.s@replicon.com>
+[2026-05-14 05:03:38] Sent to Shashi <shashi.dhar@smartims.com>
+[2026-05-14 05:03:44] Sent to Shashikant <shashikanta@celcomsolutions.com>
+[2026-05-14 05:03:49] Sent to Shashikanth <shashi@multicorewareinc.com>
+[2026-05-14 05:03:55] Sent to Shashwat <shashwat.mittra@urbanladder.com>
+[2026-05-14 05:04:00] Sent to Shavee <shavee.s@algonomy.com>
+[2026-05-14 05:04:06] Sent to Sheena <sheena.malhotra@netsmartz.com>
+[2026-05-14 05:04:12] Sent to Sheetal <sbiswas@cognitusconsulting.com>
+[2026-05-14 05:04:17] Sent to Sheetal <sheetal.deshmukh@contractpodai.com>
+[2026-05-14 05:04:22] Sent to Sheetal <sheetal@gameopedia.com>
+[2026-05-14 05:04:28] Sent to Sheetal <sheetal.pote@saviantconsulting.com>
+[2026-05-14 05:04:33] Sent to Sheetal <sheetal.sawant@aeriestechnology.com>
+[2026-05-14 05:04:39] Sent to Shefali <shefali@dynproindia.com>
+[2026-05-14 05:04:44] Sent to Shelton <shelton.b@cynetsystems.com>
+[2026-05-14 05:04:50] Sent to Shenoj <shenoj.balaraman@rebit.org.in>
+[2026-05-14 05:04:55] Sent to Shhweta <shhweta@cashkaro.com>
+[2026-05-14 05:05:01] Sent to Shikha <shikha.dhillon@decimaltech.com>
+[2026-05-14 05:05:07] Sent to Shikha <shikha@rahinfotech.com>
+[2026-05-14 05:05:12] Sent to Shikha <shikha.gupta@tatacommunications.com>
+[2026-05-14 05:05:18] Sent to Shikha <shikha.gupta@winwire.com>
+[2026-05-14 05:05:23] Sent to Shikha <shikha.kothari@klearnow.com>
+[2026-05-14 05:05:29] Sent to Shikha <shikha.soni@franconnect.com>
+[2026-05-14 05:05:35] Sent to Shilpa <shilpam@codeforce.com>
+[2026-05-14 05:05:40] Sent to Shilpa <shilpa.malhotra@mindtickle.com>
+[2026-05-14 05:05:46] Sent to Shilpa <shilpa.reddy@aeriestechnology.com>
+[2026-05-14 05:05:52] Sent to Shilpa <sshukla@anaqua.com>
+[2026-05-14 05:05:57] Sent to Shilpa <shilpa.tungikar@infrasofttech.com>
+[2026-05-14 05:06:03] Sent to Shilpi <shilpi.saklani@metro-gsc.in>
+[2026-05-14 05:06:09] Sent to Shilpi <shilpi@netomi.com>
+[2026-05-14 05:06:14] Sent to Shilpika <shilpikar@petroit.com>
+[2026-05-14 05:06:20] Sent to Shipra <shipra.lavania@wundermanthompson.com>
+[2026-05-14 05:06:26] Sent to Shipra <shipra.pandit@juspay.in>
+[2026-05-14 05:06:31] Sent to Shipra <shipra.rai@niveussolutions.com>
+[2026-05-14 05:06:37] Sent to Shirin <shirin.varghese@sugarboxnetworks.com>
+[2026-05-14 05:06:43] Sent to Shirish <shirish.bavdekar@3ds.com>
+[2026-05-14 05:06:49] Sent to Shishir <shishir.singh@milkbasket.com>
+[2026-05-14 05:06:55] Sent to Shiva <shiva@winwire.com>
+[2026-05-14 05:07:01] Sent to Shiva <shiva@comakeit.com>
+[2026-05-14 05:07:06] Sent to Shivam <sshukla@tanishasystems.com>
+[2026-05-14 05:07:12] Sent to Shivangi <shivangi@sensehq.com>
+[2026-05-14 05:07:18] Sent to Shivangi <shivangi@gatewaytechnolabs.com>
+[2026-05-14 05:07:23] Sent to Shivani <shivani.chaturvedi@mjunction.in>
+[2026-05-14 05:07:28] Sent to Shivani <shivani@virtualheight.com>
+[2026-05-14 05:07:34] Sent to Shivani <khanna.shivani@digitate.com>
+[2026-05-14 05:07:40] Sent to Shivani <shivani@eminds.ai>
+[2026-05-14 05:07:45] Sent to Shivani <shivani@acpl.com>
+[2026-05-14 05:07:50] Sent to Shoaib <shoaib.ahmed@nuware.com>
+[2026-05-14 05:07:56] Sent to Shobana <shobana@hubilo.com>
+[2026-05-14 05:08:01] Sent to Shraddha <first@softenger.com>
+[2026-05-14 05:08:07] Sent to Shraddha <shraddha@digite.com>
+[2026-05-14 05:08:13] Sent to Shradha <shradha.sule@northgateps.com>
+[2026-05-14 05:08:18] Sent to Shravan <shravan@sigmoid.com>
+[2026-05-14 05:08:24] Sent to Shreeja <shreeja.santosh@lrn.com>
+[2026-05-14 05:08:29] Sent to Shreelipta <shreelipta.mishra@blujaysolutions.com>
+[2026-05-14 05:08:35] Sent to Shreesh <shreesh_katti@bluerose-tech.com>
+[2026-05-14 05:08:41] Sent to Shreyasi <shreyasi@valuepitch.com>
+[2026-05-14 05:08:46] Sent to Shrikant <shrikant@agileglobalsolutions.com>
+[2026-05-14 05:08:52] Sent to Shruti <shruti.bhargava@netcomlearning.com>
+[2026-05-14 05:08:57] Sent to Shruti <shruti.gandhi@moolya.com>
+[2026-05-14 05:09:01] SMTP Error for Shruti <shruti.malhotra@orange.com>: (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 98e67ed59e1d1-368eea199fbsm4308820a91.17 - gsmtp')
+[2026-05-14 05:09:01] Daily sending limit reached. Stopping bulk process.
+[2026-05-14 05:09:01] 
+=== Done: 63 sent, 0 failed ===
+[2026-05-14 05:09:01] Remaining contacts in Excel: 386
+[2026-05-14 05:15:12] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 05:15:14] Connected to Gmail SMTP (Port 587).
+[2026-05-14 05:15:15] Failed to send to All <jobs@quadratyx.com>: (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-2bd5cfe8baesm3671385ad.47 - gsmtp')
+[2026-05-14 05:15:24] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 05:15:25] Connected to Gmail SMTP (Port 587).
+[2026-05-14 05:15:26] Failed to send to All <jobs@quadratyx.com>: (550, b'5.4.5 Daily user sending limit exceeded. For more information on Gmail\n5.4.5 sending limits go to\n5.4.5  https://support.google.com/a/answer/166852 d9443c01a7336-2bd5d0fc80esm3482175ad.64 - gsmtp')
+[2026-05-14 11:01:58] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 11:02:01] Connected to Gmail SMTP (Port 587).
+[2026-05-14 11:02:04] Sent to All <jobs@quadratyx.com>
+[2026-05-14 11:03:24] Contacts remaining: 386
+[2026-05-14 11:03:24] Sending up to 200 emails today (200 will be sent).
+[2026-05-14 11:03:24] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 11:03:25] Connected to Gmail SMTP (Port 587).
+[2026-05-14 11:03:29] Sent to Shruti <shruti.malhotra@orange.com>
+[2026-05-14 11:03:34] Sent to Shubha <shubham@kastechssg.com>
+[2026-05-14 11:03:39] Sent to Shubha <shubha.menon@soltius.co.id>
+[2026-05-14 11:03:44] Sent to Shubhada <shubhada.kale@atyeti.com>
+[2026-05-14 11:03:50] Sent to Shubham <shubhamkatiyar@ameyo.com>
+[2026-05-14 11:03:55] Sent to Shubhendu <bose@precisiontechcorp.com>
+[2026-05-14 11:04:00] Sent to Shubhra <shubhra.narang@c-zentrix.com>
+[2026-05-14 11:04:05] Sent to Shuchi <shuchi.nijhawan@ekaplus.com>
+[2026-05-14 11:04:11] Sent to Shweta <shweta@valuecoders.com>
+[2026-05-14 11:04:16] Sent to Shweta <shweta@desteksolutions.com>
+[2026-05-14 11:04:21] Sent to Shweta <smurthy@aurusinc.com>
+[2026-05-14 11:04:26] Sent to Shweta <shwetasetia@ayoconnect.id>
+[2026-05-14 11:04:32] Sent to Shweta <shweta@signitysolutions.com>
+[2026-05-14 11:04:37] Sent to Shwetha <shwetha@rudderstack.com>
+[2026-05-14 11:04:42] Sent to Shyam <shyam.warrier@neudesic.com>
+[2026-05-14 11:04:47] Sent to Shyama <shyama@lesoft.com>
+[2026-05-14 11:04:53] Sent to Shyamili <shyamili.satyendran@tarento.com>
+[2026-05-14 11:04:58] Sent to Shyni <shyni.k@netcon.in>
+[2026-05-14 11:05:03] Sent to Siddharth <siddharth.balakrishnan@crmit.com>
+[2026-05-14 11:05:08] Sent to Siddharth <siddharth.gaur@credencys.com>
+[2026-05-14 11:05:13] Sent to Siji <sijimolj@aditiconsulting.com>
+[2026-05-14 11:05:19] Sent to Simran <simran.kalra@avataar.me>
+[2026-05-14 11:05:25] Sent to Simran <simran.nair@hexagon.com>
+[2026-05-14 11:05:30] Sent to Sindhu <sprabakar@sciohealthanalytics.com>
+[2026-05-14 11:05:35] Sent to Sindhuja <sindhuja.parthasarathy@mindtickle.com>
+[2026-05-14 11:05:41] Sent to Sini <sini@ittdigital.com>
+[2026-05-14 11:05:46] Sent to Sirisha <sp@calliduscloud.com>
+[2026-05-14 11:05:51] Sent to Sirisree <sirisree.dayanand@aggne.com>
+[2026-05-14 11:05:56] Sent to Sitaram <sitaram.kuruganti@quadrantresource.com>
+[2026-05-14 11:06:02] Sent to Sivasankar <sivasankar.r@provintl.com>
+[2026-05-14 11:06:07] Sent to Smita <smita.narkar@infinite-uptime.com>
+[2026-05-14 11:06:12] Sent to Smitha <smitha@cybersecit.net>
+[2026-05-14 11:06:18] Sent to Smitha <smitha.pradeep@aptos.com>
+[2026-05-14 11:06:23] Sent to Smitha <smitha.s@truglobal.com>
+[2026-05-14 11:06:28] Sent to Smitha <smitha.sajo@applexus.com>
+[2026-05-14 11:06:34] Sent to Smitha <smitha@alchemysolutions.asia>
+[2026-05-14 11:06:39] Sent to Sneha <sneha@merklescience.com>
+[2026-05-14 11:06:44] Sent to Sneha <sneha@virinchi.com>
+[2026-05-14 11:06:49] Sent to Sneha <sneha@tavisca.com>
+[2026-05-14 11:06:55] Sent to Snehdeep <snehdeep.ambarkar@cientra.com>
+[2026-05-14 11:07:00] Sent to Snigdha <snigdha@saavn.com>
+[2026-05-14 11:07:05] Sent to Solution <solution.head@solutionanalysts.com>
+[2026-05-14 11:07:11] Sent to Somdatta <sgupta@encoress.com>
+[2026-05-14 11:07:16] Sent to Somesh <somesh.sharma@infostride.com>
+[2026-05-14 11:07:21] Sent to Somya <somya.babu@gramtarang.in>
+[2026-05-14 11:07:26] Sent to Sonal <sonal.srivastava@mobilecoderz.com>
+[2026-05-14 11:07:32] Sent to Sonal <sonal.upadhyay@thepsi.com>
+[2026-05-14 11:07:37] Sent to Sonali <sonali.bhave@infrasofttech.com>
+[2026-05-14 11:07:42] Sent to Sonali <sonalip@selectsourceintl.com>
+[2026-05-14 11:07:48] Sent to Sonali <hr@cyntexa.com>
+[2026-05-14 11:07:53] Sent to Sonali <sonali.titus@intelegencia.com>
+[2026-05-14 11:07:59] Sent to Sonam <sonam.dwivedi@transunion.com>
+[2026-05-14 11:08:04] Sent to Soni <soni@intellolabs.com>
+[2026-05-14 11:08:09] Sent to Sonia <sonia.gahlot@fivesdigital.com>
+[2026-05-14 11:08:15] Sent to Sonia <sonia@klausit.com>
+[2026-05-14 11:08:20] Sent to Sophronia <sophronia@reshamandi.com>
+[2026-05-14 11:08:25] Sent to Soumya <soumya@zoondia.in>
+[2026-05-14 11:08:31] Sent to Soumya <soumya@impress.ai>
+[2026-05-14 11:08:36] Sent to Soundarya <soundarya.murugaiyan@cts.co>
+[2026-05-14 11:08:41] Sent to Sourabh <sourabh.jain@fiserv.com>
+[2026-05-14 11:08:47] Sent to Sourabh <s.rai@drishti.com>
+[2026-05-14 11:08:52] Sent to Sourabha <sourabha.ravi@valuepointsystems.com>
+[2026-05-14 11:08:58] Sent to Sourik <sourik.s@frontizo.in>
+[2026-05-14 11:09:03] Sent to Sowmya <sowmya@probeinformation.com>
+[2026-05-14 11:09:09] Sent to Sowmya <sowmya@ibhubs.co>
+[2026-05-14 11:09:14] Sent to Sree <sree@straviso.com>
+[2026-05-14 11:09:19] Sent to Sree <sree.umamaheswari@impigertech.com>
+[2026-05-14 11:09:24] Sent to Sreeja <sreeja.sreedharan@skuad.io>
+[2026-05-14 11:09:29] Sent to Sreeparna <sreeparna.samanta@urbanladder.com>
+[2026-05-14 11:09:35] Sent to Sreepriya <sreepriya@eagleview.co.in>
+[2026-05-14 11:09:40] Sent to Sreeram <sreeram@qualizeal.com>
+[2026-05-14 11:09:46] Sent to Sreetam <smohanty@primusglobal.com>
+[2026-05-14 11:09:51] Sent to Sreevalli <sreevalli.k@sstech.us>
+[2026-05-14 11:09:56] Sent to Sreevidhya <sreevidhya.shashi@itorizon.com>
+[2026-05-14 11:10:01] Sent to Sridevi <sputta@aztecsoftware.com>
+[2026-05-14 11:10:07] Sent to Sridevi <sridevi@sedintechnologies.com>
+[2026-05-14 11:10:12] Sent to Sridevi <sridevi.v@jeevantechnologies.com>
+[2026-05-14 11:10:17] Sent to Sridhar <sridhar.barige@jsw.in>
+[2026-05-14 11:10:22] Sent to Sridhar <sridhar.kotha@gupshup.io>
+[2026-05-14 11:10:28] Sent to Sridhar <sridhar.m@fluentgrid.com>
+[2026-05-14 11:10:33] Sent to Sridhar <sridhar.srinivasan@boardex.com>
+[2026-05-14 11:10:39] Sent to Srikanth <srikanthb@techpointsolutions.com>
+[2026-05-14 11:10:44] Sent to Srikanth <srikanth.e@mergenit.com>
+[2026-05-14 11:10:49] Sent to Srikanth <srikanth.sathyanarayana@komprise.com>
+[2026-05-14 11:10:55] Sent to Srikrishna <srikrishna@fugoservices.com>
+[2026-05-14 11:11:00] Sent to Srinath <srinath.g@nexval.com>
+[2026-05-14 11:11:06] Sent to Srini <srini@technogeninc.com>
+[2026-05-14 11:11:11] Sent to Srinidhi <srinidhi.d@keka.com>
+[2026-05-14 11:11:16] Sent to Srinivas <srinivas@collaboratesolutions.com>
+[2026-05-14 11:11:21] Sent to Srinivas <srinivas.polaris@polarismanagement.com>
+[2026-05-14 11:11:26] Sent to Srinivas <srinivas.talampuranam@inspirage.com>
+[2026-05-14 11:11:32] Sent to Sriram <ssundaram@tetrasoft.us>
+[2026-05-14 11:11:37] Sent to Srivathsan <srivathsan.mg@kumaran.com>
+[2026-05-14 11:11:42] Sent to Srividhya <srividhya.deshpande@springml.com>
+[2026-05-14 11:11:47] Sent to Stephen <stephen@eoxvantage.com>
+[2026-05-14 11:11:53] Sent to Subashini <suba@geval6.com>
+[2026-05-14 11:11:58] Sent to Subbarao <subbarao.c@softpath.net>
+[2026-05-14 11:12:03] Sent to Subhakant <sdas@edrinfo.com>
+[2026-05-14 11:12:08] Sent to Subhash <subhashbv@macomsolutions.com>
+[2026-05-14 11:12:14] Sent to Subhash <subhash.chandra@silverlinecrm.com>
+[2026-05-14 11:12:19] Sent to Subramanian <subramanian.adaikalam@sumtotalsystems.com>
+[2026-05-14 11:12:24] Sent to Subramanian <subramanian@logisofttechinc.com>
+[2026-05-14 11:12:29] Sent to Subramanian <sponnusamy@aequor.com>
+[2026-05-14 11:12:34] Sent to Subramanya <subramanya@reshamandi.com>
+[2026-05-14 11:12:40] Sent to Subrina <subrina@flobiz.in>
+[2026-05-14 11:12:45] Sent to Suby <mathew@techautocons.com>
+[2026-05-14 11:12:50] Sent to Sucheta <sucheta.ukidve@mindstix.com>
+[2026-05-14 11:12:55] Sent to Sudeep <sudeep.chakkingal@ssitsol.com>
+[2026-05-14 11:13:00] Sent to Sudeep <sudeep.luthra@orange.com>
+[2026-05-14 11:13:05] Sent to Sudhaa <sudhaav@buddi.ai>
+[2026-05-14 11:13:11] Sent to Sudhakar <sudhakar@noblesoft.com>
+[2026-05-14 11:13:16] Sent to Sudhindra <sudhindra.sarnobat@isourceinfosystems.com>
+[2026-05-14 11:13:21] Sent to Sudhir <sudhir.b@aeriestechnology.com>
+[2026-05-14 11:13:26] Sent to Sudhir <sudhir.salve@searshc.com>
+[2026-05-14 11:13:31] Sent to Sudhir <sudhir.shinde@nielseniq.com>
+[2026-05-14 11:13:37] Sent to Suguna <suguna.rajaram@ymedialabs.com>
+[2026-05-14 11:13:42] Sent to Suhasini <suhasinir@amzetta.com>
+[2026-05-14 11:13:47] Sent to Sujatha <sujathag@celcomsolutions.com>
+[2026-05-14 11:13:52] Sent to Sujatha <sujatha.v@oneglobesystems.com>
+[2026-05-14 11:13:57] Sent to Sujee <sujee@crayondata.com>
+[2026-05-14 11:14:03] Sent to Sujeet <sujeet.rao@diverselynx.com>
+[2026-05-14 11:14:08] Sent to Sujit <sujit.jiandani@aethereus.com>
+[2026-05-14 11:14:13] Sent to Sukeshni <sukeshni.tulasi@napierhealthcare.com>
+[2026-05-14 11:14:18] Sent to Sukhpreet <sukhpreet.sandhu@itilite.com>
+[2026-05-14 11:14:23] Sent to Sulabh <sulabh.daigavhane@truminds.com>
+[2026-05-14 11:14:28] Sent to Sumalatha <sumalatha.d@ritesoftware.com>
+[2026-05-14 11:14:34] Sent to Suman <suman.bhattacharjee@webskitters.com>
+[2026-05-14 11:14:39] Sent to Suman <suman.kitawat@fivesplash.in>
+[2026-05-14 11:14:44] Sent to Suman <suman.mukherjee@ultimatesolutions.in>
+[2026-05-14 11:14:49] Sent to Sumarani <sumarani.y@ekaplus.com>
+[2026-05-14 11:14:55] Sent to Sumit <sumit.k@nrconsultingservice.com>
+[2026-05-14 11:15:00] Sent to Sumit <sumit.midha@intellolabs.com>
+[2026-05-14 11:15:05] Sent to Sumukhi <sumukhi.jairam@nttdata.com>
+[2026-05-14 11:15:10] Sent to Sunaina <sunaina@u3infotech.com>
+[2026-05-14 11:15:16] Sent to Sunandha <sunandha@telliant.net>
+[2026-05-14 11:15:21] Sent to Sundeep <sundeep.dasa@valgenesis.com>
+[2026-05-14 11:15:26] Sent to Sundeep <sundeep.pandey@puresoftware.com>
+[2026-05-14 11:15:31] Sent to Sunder <sunder.rangarajan@businessintegra.com>
+[2026-05-14 11:15:37] Sent to Sunetra <sunetra@hiverhq.com>
+[2026-05-14 11:15:42] Sent to Sunil <skapoor@milcorp.com>
+[2026-05-14 11:15:47] Sent to Sunil <sunils2@innov.in>
+[2026-05-14 11:15:52] Sent to Sunila <sunila_jaikumar@edgeverve.com>
+[2026-05-14 11:15:57] Sent to Sunit <sunit.kanoi@ag-technologies.com>
+[2026-05-14 11:16:03] Sent to Sunita <sdave@relsci.com>
+[2026-05-14 11:16:08] Sent to Sunitha <sunithas@affluentgs.com>
+[2026-05-14 11:16:13] Sent to Sunny <sunny.chavan@mediaagility.com>
+[2026-05-14 11:16:18] Sent to Sunny <sunny.shroff@unitech-rio.com.br>
+[2026-05-14 11:16:23] Sent to Sunny <sunny.walia@axeno.co>
+[2026-05-14 11:16:29] Sent to Supraja <ssekhar@utopiainc.com>
+[2026-05-14 11:16:34] Sent to Supreeth <supreeth.gudla@euclidinnovations.com>
+[2026-05-14 11:16:39] Sent to Supriya <supriya.a@ecolabdigitalcenter.in>
+[2026-05-14 11:16:44] Sent to Supriya <hr.mumbai@konverge.co.in>
+[2026-05-14 11:16:49] Sent to Supriya <supriya.lulla@doyen.co.in>
+[2026-05-14 11:16:54] Sent to Supriya <supriya.shonu@deeptek.ai>
+[2026-05-14 11:17:00] Sent to Surabhi <surabhi.sharma@se2.com>
+[2026-05-14 11:17:05] Sent to Suraj <suraj.shylaja@g10x.com>
+[2026-05-14 11:17:10] Sent to Surajeet <surajeet@stockedge.com>
+[2026-05-14 11:17:15] Sent to Surbhi <surbhi.gupta@enquero.com>
+[2026-05-14 11:17:21] Sent to Surbhi <surbhi.sinha@kapture.cx>
+[2026-05-14 11:17:26] Sent to Suresh <suresh.aade@foodhub.com>
+[2026-05-14 11:17:31] Sent to Suresh <sureshc@vuram.com>
+[2026-05-14 11:17:37] Sent to Suresh <suresh@truetechsolutions.in>
+[2026-05-14 11:17:42] Sent to Suresh <suresh@aspirenxt.com>
+[2026-05-14 11:17:48] Sent to Suresh <suresh.n@wrenchsolutions.com>
+[2026-05-14 11:17:53] Sent to Suresh <sureshkumar.tedlapu@criticalriver.com>
+[2026-05-14 11:17:58] Sent to Suresh <tsuresh@kutirtech.com>
+[2026-05-14 11:18:03] Sent to Surinder <surinderc@damcogroup.com>
+[2026-05-14 11:18:08] Sent to Suriya <suriya.kumar@kumaran.com>
+[2026-05-14 11:18:14] Sent to Surojit <surojitc@interrait.com>
+[2026-05-14 11:18:19] Sent to Suruchi <suruchi.handa@azilen.com>
+[2026-05-14 11:18:24] Sent to Suruchi <skhosla@contecglobal.com>
+[2026-05-14 11:18:29] Sent to Susan <susan.dsilva@aujas.com>
+[2026-05-14 11:18:35] Sent to Susan <susan@kissflow.com>
+[2026-05-14 11:18:40] Sent to Susheel <susheelk@ironsystems.com>
+[2026-05-14 11:18:45] Sent to Sushil <sushil.kumar@expediteinc.com>
+[2026-05-14 11:18:50] Sent to Sushmita <sushmita.aduri@teklink.com>
+[2026-05-14 11:18:55] Sent to Susmita <susmita.kaushik@blazeclan.com>
+[2026-05-14 11:19:00] Sent to Suva <suva.dasgupta@theblueflamelabs.com>
+[2026-05-14 11:19:06] Sent to Suvarna <suvarna_f@sigma-byte.com>
+[2026-05-14 11:19:11] Sent to Suvro <suvro.karmakar@ubique-systems.com>
+[2026-05-14 11:19:16] Sent to Suzanna <suzanna.tapala@ankercloud.com>
+[2026-05-14 11:19:21] Sent to Sveta <sveta.shenoy@technoidentity.com>
+[2026-05-14 11:19:26] Sent to Swagato <swagato.sengupta@areteanstech.com>
+[2026-05-14 11:19:32] Sent to Swaminathan <swaminathan.srinivasan@transactcampus.com>
+[2026-05-14 11:19:37] Sent to Swapna <swapna.jaladi@savantis.com>
+[2026-05-14 11:19:43] Sent to Swapna <swapna.krishna@theoptimum.net>
+[2026-05-14 11:19:48] Sent to Swapna <swapna@avestacs.com>
+[2026-05-14 11:19:53] Sent to Swapnika <snag@tataunistore.com>
+[2026-05-14 11:19:59] Sent to Swapnil <swapnil.bhoskar@pragmasys.in>
+[2026-05-14 11:20:04] Sent to Swapnil <swapnil.pilkhane@aqmtechnologies.com>
+[2026-05-14 11:20:09] Sent to Swapnil <swapnil.trikane@irisbusiness.com>
+[2026-05-14 11:20:14] Sent to Swaroop <swaroop.gokhale@mediaagility.com>
+[2026-05-14 11:20:19] Sent to Swarup <swarup@polygon.technology>
+[2026-05-14 11:20:25] Sent to Swarup <swarup.chowdhury@qtsolv.com>
+[2026-05-14 11:20:30] Sent to Swathi <snarayan@atsg.net>
+[2026-05-14 11:20:35] Sent to Swathi <swathi.s@envoyglobal.com>
+[2026-05-14 11:20:40] Sent to Swati <swati.d@safe.security>
+[2026-05-14 11:20:45] Sent to Swati <swati_m@elsner.com>
+[2026-05-14 11:20:51] Sent to Swati <swatip@zimetrics.com>
+[2026-05-14 11:20:57] Sent to Swati <swati.sharma@triotree.in>
+[2026-05-14 11:20:59] 
+=== Done: 200 sent, 0 failed ===
+[2026-05-14 11:20:59] Remaining contacts in Excel: 186
+[2026-05-14 11:45:27] Contacts remaining: 186
+[2026-05-14 11:45:27] Sending up to 200 emails today (186 will be sent).
+[2026-05-14 11:45:27] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 11:45:29] Connected to Gmail SMTP (Port 587).
+[2026-05-14 11:45:32] Sent to Swati <suryavanshi.swati@mantratec.com>
+[2026-05-14 11:45:37] Sent to Sweety <sweety.nair@puresoftware.com>
+[2026-05-14 11:45:42] Sent to Sweety <sweety.rath@aspect.com>
+[2026-05-14 11:45:47] Sent to Sweta <sbidwai@saltside.se>
+[2026-05-14 11:45:52] Sent to Sweta <sweta@rizzle.tv>
+[2026-05-14 11:45:57] Sent to Sweta <smishra@ivp.in>
+[2026-05-14 11:46:02] Sent to Swetha <swetha@hackerearth.com>
+[2026-05-14 11:46:08] Sent to Swetha <swetha@intonenetworks.com>
+[2026-05-14 11:46:13] Sent to Syed <syed.faizan@rsrit.com>
+[2026-05-14 11:46:18] Sent to Syed <syed@dixitindia.com>
+[2026-05-14 11:46:24] Sent to Syed <syed@helpshift.com>
+[2026-05-14 11:46:31] Sent to Syed <syedmehandi@cedcoss.com>
+[2026-05-14 11:46:37] Sent to Syed <syed@panzertechnologies.com>
+[2026-05-14 11:46:43] Sent to Syed <syed.rizvi@megasoftsol.com>
+[2026-05-14 11:46:49] Sent to Tanisha <tanisha@91social.com>
+[2026-05-14 11:46:54] Sent to Tanu <tsaxena@trimaxamericas.com>
+[2026-05-14 11:47:01] Sent to Tanuj <tanuj.sonawale@riomed.com>
+[2026-05-14 11:47:06] Sent to Tanuj <tanuj@codersbrain.com>
+[2026-05-14 11:47:12] Sent to Tanul <tanul.jain@cyware.com>
+[2026-05-14 11:47:18] Sent to Tanvi <tanvi.s@commerceiq.ai>
+[2026-05-14 11:47:24] Sent to Tanvi <tanvi.mittal@vlinkinfo.com>
+[2026-05-14 11:47:30] Sent to Tanvi <tanvi.salpekar@maantic.com>
+[2026-05-14 11:47:36] Sent to Tapas <tapas@spartanpoker.com>
+[2026-05-14 11:47:41] Sent to Tara <tara.cherian@reflectionsinfos.com>
+[2026-05-14 11:47:46] Sent to Tariq <tariq@pfinfotech.com>
+[2026-05-14 11:47:53] Sent to Tarit <tarit.bhaumik@nevaehtech.com>
+[2026-05-14 11:47:58] Sent to Tasneem <tasneem.mujir@ecolab.com>
+[2026-05-14 11:48:03] Sent to Tej <krtk@suprasoft.com>
+[2026-05-14 11:48:09] Sent to Tejinder <tejinder@truckx.com>
+[2026-05-14 11:48:14] Sent to Terence <terencea@observe.ai>
+[2026-05-14 11:48:19] Sent to Tess <tess.burlow@symbiosystech.com>
+[2026-05-14 11:48:24] Sent to Thangaraj <thangaraj@uniphore.com>
+[2026-05-14 11:48:30] Sent to Thejaswini <thejaswini.kulkarni@sakhatech.com>
+[2026-05-14 11:48:35] Sent to Thierry <thierry.flury@orange.com>
+[2026-05-14 11:48:40] Sent to Thomas <thomask@azuga.com>
+[2026-05-14 11:48:46] Sent to Thrishala <thrishala.n@optit.in>
+[2026-05-14 11:48:51] Sent to Timcy <timcy@exlyapp.com>
+[2026-05-14 11:48:56] Sent to Tisha <tisha@loconav.com>
+[2026-05-14 11:49:01] Sent to Toshi <t.jain@novelvox.com>
+[2026-05-14 11:49:07] Sent to Trisha <trisha.chandra@nirvanasolutions.com>
+[2026-05-14 11:49:12] Sent to Trupti <trupti.pansare@inteliment.com>
+[2026-05-14 11:49:17] Sent to Trupti <trupti.shukla@optym.com>
+[2026-05-14 11:49:22] Sent to Tulasi <tpochampally@hostanalytics.com>
+[2026-05-14 11:49:28] Sent to Uday <udaykumar@cadmaxx.com>
+[2026-05-14 11:49:33] Sent to Udit <udit@dataincindia.com>
+[2026-05-14 11:49:38] Sent to Ujjal <usarkar@netwoven.com>
+[2026-05-14 11:49:43] Sent to Ujjwaal <ujjwaal.d@valentabpo.com>
+[2026-05-14 11:49:48] Sent to Uma <uma_maheshwari@mindtree.com>
+[2026-05-14 11:49:54] Sent to Uma <uma.hr@magnasoft.com>
+[2026-05-14 11:49:59] Sent to Umar <umar.k@acuverconsulting.com>
+[2026-05-14 11:50:04] Sent to Umesh <umesh.kamath@maxval.com>
+[2026-05-14 11:50:10] Sent to Umesh <umesh.yadav@dynpro.com>
+[2026-05-14 11:50:15] Sent to Usha <usha.chirayil@reflectionsinfos.com>
+[2026-05-14 11:50:21] Sent to Usha <usha.jaiswal@systematixindia.com>
+[2026-05-14 11:50:27] Sent to Usha <usha.nath@nathcorp.com>
+[2026-05-14 11:50:32] Sent to Usha <usha@cube84.com>
+[2026-05-14 11:50:38] Sent to Uthappa <uthappa.kuppanda@solugenix.com>
+[2026-05-14 11:50:43] Sent to Utkarsh <utkarsht@observe.ai>
+[2026-05-14 11:50:48] Sent to Utsav <utsav.kothari@embee.co.in>
+[2026-05-14 11:50:53] Sent to Vaibhav <vaibhav.khanna@fci-ccm.com>
+[2026-05-14 11:50:58] Sent to Vaibhav <vaibhav@scienaptic.com>
+[2026-05-14 11:51:03] Sent to Vaibhav <kumar.v@nrconsultingservice.com>
+[2026-05-14 11:51:09] Sent to Vaibhav <r.vaibhav@pixis.ai>
+[2026-05-14 11:51:14] Sent to Vaibhavi <vaibhavi.j@infogen-labs.com>
+[2026-05-14 11:51:20] Sent to Vaidhyanathan <vaidhyanathan@infinitysts.com>
+[2026-05-14 11:51:25] Sent to Vaidyanathan <vaidyanathan@calsof.com>
+[2026-05-14 11:51:31] Sent to Vaishali <vgandhi@vibrenthealth.com>
+[2026-05-14 11:51:36] Sent to Vamshi <vamshi.krishna@ritesoftware.com>
+[2026-05-14 11:51:42] Sent to Vamsi <vamsi.krishna@atmecs.com>
+[2026-05-14 11:51:47] Sent to Vandana <vandana.chawla@innefu.com>
+[2026-05-14 11:51:52] Sent to Vandana <vandana.pandey@adapty.com>
+[2026-05-14 11:51:58] Sent to Vandana <vandana.roy@vfirst.com>
+[2026-05-14 11:52:03] Sent to Vani <vani.sathvik@ekaplus.com>
+[2026-05-14 11:52:08] Sent to Vanitha <vanitha.nitin@sunlife.com>
+[2026-05-14 11:52:13] Sent to Vara <varaprasad.m@fluentgrid.com>
+[2026-05-14 11:52:19] Sent to Vara <vara.tupalli@amnetdigital.com>
+[2026-05-14 11:52:24] Sent to Vardhini <vardhini.mani@agile-ft.com>
+[2026-05-14 11:52:29] Sent to Varna <varna.nair@nxtgen.com>
+[2026-05-14 11:52:34] Sent to Varsha <tyson@rapidinnovation.dev>
+[2026-05-14 11:52:39] Sent to Varsha <varsha@consystentinfo.com>
+[2026-05-14 11:52:45] Sent to Varsha <varsha.sethia@fintellix.com>
+[2026-05-14 11:52:50] Sent to Varsha <varsha.shekar@servicemax.com>
+[2026-05-14 11:52:55] Sent to Varun <vhatmode@tavisca.com>
+[2026-05-14 11:53:00] Sent to Varun <varun.wadhwa@birdeye.com>
+[2026-05-14 11:53:06] Sent to Vasanthi <vasanthi.n@greyorange.com>
+[2026-05-14 11:53:11] Sent to Vasu <vasu.p@nbhcindia.com>
+[2026-05-14 11:53:17] Sent to Vasudev <vasudevm@kensium.com>
+[2026-05-14 11:53:23] Sent to Vedha <vedha@cloudthing.com>
+[2026-05-14 11:53:28] Sent to Veena <veena.bhagwat@infrabeat.com>
+[2026-05-14 11:53:33] Sent to Veena <veena.rao@highstreetit.com>
+[2026-05-14 11:53:39] Sent to Veena <veena.satish@moengage.com>
+[2026-05-14 11:53:44] Sent to Veena <veena.vishnu@plansource.com>
+[2026-05-14 11:53:49] Sent to Vema <vradha@v2soft.com>
+[2026-05-14 11:53:54] Sent to Venkat <cvenkat@aditiconsulting.com>
+[2026-05-14 11:54:00] Sent to Venkat <venkat.r@mresult.com>
+[2026-05-14 11:54:05] Sent to Venkata <ratnakar@corp.untd.com>
+[2026-05-14 11:54:10] Sent to Venkata <venkata.kuruhuri@symphonycorp.com>
+[2026-05-14 11:54:15] Sent to Venkatesan <vs@changepond.com>
+[2026-05-14 11:54:21] Sent to Venkatesh <venkatesh.bj@vrize.com>
+[2026-05-14 11:54:26] Sent to Venkatesh <venkateshg@useready.com>
+[2026-05-14 11:54:31] Sent to Vickky <vickky.sahoo@lanetteam.com>
+[2026-05-14 11:54:37] Sent to Vidhya <vidhya.sam@superops.ai>
+[2026-05-14 11:54:42] Sent to Vidya <vidya.salve@wovvtech.com>
+[2026-05-14 11:54:47] Sent to Vidya <vsrikumar@reputation.com>
+[2026-05-14 11:54:53] Sent to Vigil <vigilmthomas@tonetag.com>
+[2026-05-14 11:54:58] Sent to Vignesh <vignesh.m@myhealthchampion.com>
+[2026-05-14 11:55:03] Sent to Vignesh <vignesh.sanga@savantis.com>
+[2026-05-14 11:55:09] Sent to Vignesh <u.vignesh@introlligent.com>
+[2026-05-14 11:55:14] Sent to Vijay <vijay.arcot@ymedialabs.com>
+[2026-05-14 11:55:19] Sent to Vijay <vijay.gupta@rahisystems.com>
+[2026-05-14 11:55:25] Sent to Vijay <vijay.kumar@bukuwarung.com>
+[2026-05-14 11:55:30] Sent to Vijay <vijaykumar.r@contus.in>
+[2026-05-14 11:55:35] Sent to Vijay <vijaypundir@dwao.in>
+[2026-05-14 11:55:40] Sent to Vijay <vijay.rai@apollo.engineer>
+[2026-05-14 11:55:45] Sent to Vijay <vijay.r@navasoftware.com>
+[2026-05-14 11:55:50] Sent to Vijay <vijay@leadiq.com>
+[2026-05-14 11:55:55] Sent to Vijay <vijay.t@ipsoft.com>
+[2026-05-14 11:56:00] Sent to Vijay <vijay.tiwari@hal-dz.com>
+[2026-05-14 11:56:06] Sent to Vijay <vijay.unnikrishnan@acqueon.com>
+[2026-05-14 11:56:11] Sent to Vijaya <vijayar@sightspectrum.com>
+[2026-05-14 11:56:16] Sent to Vijaya <vijaya.talluri@g10x.com>
+[2026-05-14 11:56:21] Sent to Vijayakrishna <vijayakrishna.t@lera.us>
+[2026-05-14 11:56:26] Sent to Vijayalakshmi <vijayalakshmi.s@payoda.com>
+[2026-05-14 11:56:31] Sent to Vijayeta <vijayeta@sellcraft.net>
+[2026-05-14 11:56:36] Sent to Vijil <vijil@appinessworld.com>
+[2026-05-14 11:56:42] Sent to Viju <viju@imocha.io>
+[2026-05-14 11:56:47] Sent to Vikas <vikass@interrait.com>
+[2026-05-14 11:56:52] Sent to Vikash <vikas.kumar@altudo.co>
+[2026-05-14 11:56:57] Sent to Vikram <vkallianpur@cordys.com>
+[2026-05-14 11:57:03] Sent to Vikram <vikram.kallianpur@innovapptive.com>
+[2026-05-14 11:57:08] Sent to Vikram <vikram@gyftr.com>
+[2026-05-14 11:57:13] Sent to Vikrant <vikrant@weblineindia.com>
+[2026-05-14 11:57:19] Sent to Vikrant <vikrant.goyal@games24x7.com>
+[2026-05-14 11:57:24] Sent to Vimal <vimal.balsara@cdpindia.com>
+[2026-05-14 11:57:30] Sent to Vinay <vinay.karrow@belwo.com>
+[2026-05-14 11:57:35] Sent to Vinay <vinay.kn@cropin.com>
+[2026-05-14 11:57:40] Sent to Vinay <vinay.mahajan@techgenies.com>
+[2026-05-14 11:57:46] Sent to Vinay <vinay.s@manthan.com>
+[2026-05-14 11:57:51] Sent to Vineela <vineela.gopalajosyula@itelligencegroup.com>
+[2026-05-14 11:57:56] Sent to Vineet <vineets@svam.com>
+[2026-05-14 11:58:01] Sent to Vinibha <vinibha@dsrc.com>
+[2026-05-14 11:58:06] Sent to Vinita <vinita.jayapalan@provintl.com>
+[2026-05-14 11:58:12] Sent to Vinny <vinny@tops-int.com>
+[2026-05-14 11:58:17] Sent to Vinny <vinny@webguruz.in>
+[2026-05-14 11:58:23] Sent to Vinod <vinod.ch@neelblue.com>
+[2026-05-14 11:58:29] Sent to Vinod <vinod.malik@a1technology.com>
+[2026-05-14 11:58:34] Sent to Vinod <vinod@ally.io>
+[2026-05-14 11:58:39] Sent to Vinod <vinod.r@o2finfosolutions.com>
+[2026-05-14 11:58:45] Sent to Vinok <vinok.sequeria@jda.com>
+[2026-05-14 11:58:50] Sent to Vinutha <vinutha.govindan@resulticks.com>
+[2026-05-14 11:58:55] Sent to Vipin <vipin.r@codilar.com>
+[2026-05-14 11:59:01] Sent to Vipin <vipin.sharma@vtnetzwelt.com>
+[2026-05-14 11:59:06] Sent to Viraaj <viraaj@headout.com>
+[2026-05-14 11:59:11] Sent to Vishakha <vishakha.saini@infostride.com>
+[2026-05-14 11:59:16] Sent to Vishakha <vishakha.s@mindgate.in>
+[2026-05-14 11:59:22] Sent to Vishal <vishal.kanade@zenart.com>
+[2026-05-14 11:59:27] Sent to Vishal <vishal.naithani@mylofamily.com>
+[2026-05-14 11:59:32] Sent to Vishal <vishal@alumnux.com>
+[2026-05-14 11:59:37] Sent to Vishma <vishma@litmus7.com>
+[2026-05-14 11:59:42] Sent to Vishnu <vishnu.vardhan@bitlasoft.com>
+[2026-05-14 11:59:47] Sent to Vishruti <varora@unifocus.com>
+[2026-05-14 11:59:52] Sent to Vishva <vishva.paneri@lipi.in>
+[2026-05-14 11:59:58] Sent to Vishwa <vishwa@platform9.com>
+[2026-05-14 12:00:04] Sent to Vishwajit <vishwajit@shivaami.com>
+[2026-05-14 12:00:09] Sent to Vishwanath <vishwanath.belliappa@codecraft.co.in>
+[2026-05-14 12:00:15] Sent to Vithika <vithika@optimizeitsystems.com>
+[2026-05-14 12:00:20] Sent to Vivek <vivekj@selectsourceintl.com>
+[2026-05-14 12:00:25] Sent to Vivek <vivek@pacificbpo.com>
+[2026-05-14 12:00:30] Sent to Vivek <vivek@helius-tech.com>
+[2026-05-14 12:00:35] Sent to Vivek <vivek.saxena@newstechnologyservices.com>
+[2026-05-14 12:00:41] Sent to Vivek <viveksingh@jupitice.com>
+[2026-05-14 12:00:46] Sent to Vram <vram.v@ducenit.com>
+[2026-05-14 12:00:51] Sent to Vyas <vyas.ramaraj@trustrace.com>
+[2026-05-14 12:00:56] Sent to Yasar <yasar.j@techmango.net>
+[2026-05-14 12:01:01] Sent to Yashika <yashika@mawaimail.com>
+[2026-05-14 12:01:07] Sent to Yashika <yashika@vrize.com>
+[2026-05-14 12:01:12] Sent to Yashpal <yashpal.yadav@dynproindia.com>
+[2026-05-14 12:01:17] Sent to Yashwanth <yashwanths@blubirch.com>
+[2026-05-14 12:01:22] Sent to Yesha <yesha.brahmbhatt@contentstack.com>
+[2026-05-14 12:01:27] Sent to Yogesh <yogesh.waran@sandhata.com>
+[2026-05-14 12:01:32] Sent to Yogita <yogita.sharma@netsmartz.com>
+[2026-05-14 12:01:37] Sent to Zarna <zarnatrivedi@versa-networks.com>
+[2026-05-14 12:01:42] Sent to Zeeshan <zeeshan.khan@luminescent.digital>
+[2026-05-14 12:01:48] Sent to Zia <zia.alam@bluepineapple.io>
+[2026-05-14 12:01:53] Sent to Zubair <zubair.wani@netmagicsolutions.com>
+[2026-05-14 12:01:58] Sent to Zulfiqar <zulfiqar.syed@netcore.co.in>
+[2026-05-14 12:02:00] 
+=== Done: 186 sent, 0 failed ===
+[2026-05-14 12:02:00] Remaining contacts in Excel: 0
+[2026-05-14 14:37:10] Contacts remaining: 1835
+[2026-05-14 14:37:10] Sending up to 1 emails today (1 will be sent).
+[2026-05-14 14:37:10] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 14:37:10] Port 587 attempt failed: [Errno 11001] getaddrinfo failed. Falling back to Port 465...
+[2026-05-14 14:37:10] SMTP connection failed on all ports: [Errno 11001] getaddrinfo failed
+[2026-05-14 14:37:10] Bulk process encountered an error: [Errno 11001] getaddrinfo failed
+[2026-05-14 14:37:26] Contacts remaining: 1835
+[2026-05-14 14:37:26] Sending up to 1 emails today (1 will be sent).
+[2026-05-14 14:37:26] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 14:37:26] Port 587 attempt failed: [Errno 11001] getaddrinfo failed. Falling back to Port 465...
+[2026-05-14 14:37:26] SMTP connection failed on all ports: [Errno 11001] getaddrinfo failed
+[2026-05-14 14:37:26] Bulk process encountered an error: [Errno 11001] getaddrinfo failed
+[2026-05-14 14:39:55] Contacts remaining: 1835
+[2026-05-14 14:39:55] Sending up to 1 emails today (1 will be sent).
+[2026-05-14 14:39:55] Connecting to Gmail SMTP at smtp.gmail.com:587...
+[2026-05-14 14:39:57] Connected to Gmail SMTP (Port 587).
+[2026-05-14 14:40:00] Sent to Akanksha Puri <akanksha.puri@sourcefuse.com>
+[2026-05-14 14:40:03] 
+=== Done: 1 sent, 0 failed ===
+[2026-05-14 14:40:03] Remaining contacts in Excel: 1834

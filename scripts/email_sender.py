@@ -139,13 +139,25 @@ def load_html_body(html_body_path):
 
 def connect_smtp(sender_email, app_password):
     try:
-        server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
+        # Attempt connection via Port 587 (STARTTLS) first.
+        # This is often more reliable in cloud environments like Render
+        # where port 465 might be intermittently unreachable or blocked.
+        log(f"Connecting to Gmail SMTP at smtp.gmail.com:587...")
+        server = smtplib.SMTP("smtp.gmail.com", 587, timeout=30)
+        server.starttls()
         server.login(sender_email, app_password)
-        log("Connected to Gmail SMTP.")
+        log("Connected to Gmail SMTP (Port 587).")
         return server
     except Exception as e:
-        log(f"SMTP connection failed: {e}")
-        raise
+        log(f"Port 587 attempt failed: {e}. Falling back to Port 465...")
+        try:
+            server = smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=30)
+            server.login(sender_email, app_password)
+            log("Connected to Gmail SMTP (Port 465).")
+            return server
+        except Exception as e2:
+            log(f"SMTP connection failed on all ports: {e2}")
+            raise e2
 
 
 def remove_contact_entry(excel_path, recipient_name, recipient_email):
@@ -200,12 +212,14 @@ def get_sender_email(cli_sender=None):
 
 def send_single_email(recipient_name, recipient_email, sender_email, app_password, pdf_path, html_body_path, subject, on_progress=None, html_body_content=None):
     html_body = html_body_content if html_body_content is not None else load_html_body(html_body_path)
-    server = None
-
     name = recipient_name.strip()
     email = recipient_email.strip()
-
+    server = None
+    
     try:
+        if on_progress:
+            on_progress("info", name, email, "Establishing connection...")
+
         server = connect_smtp(sender_email, app_password)
         msg = build_email(sender_email, name, email, html_body, pdf_path, subject)
         server.sendmail(sender_email, email, msg.as_string())
@@ -245,6 +259,9 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
 
     server = None
     try:
+        if on_progress:
+            on_progress("info", "System", "Bulk", f"Initializing connection for {len(to_send)} emails...")
+
         server = connect_smtp(sender_email, app_password)
 
         for idx, row in to_send.iterrows():
@@ -255,15 +272,22 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
             name = str(row["name"]).strip()
             email = str(row["email"]).strip()
 
-            # 1. Ensure SMTP connection is alive, or reconnect
+            # 1. Connection Health Check & Reconnect
             try:
                 try:
-                    if server is None:
-                        server = connect_smtp(sender_email, app_password)
-                    else:
+                    if server:
                         server.noop()
+                    else:
+                        raise smtplib.SMTPServerDisconnected()
                 except Exception:
-                    log("SMTP connection lost or not established. Reconnecting...")
+                    log(f"Connection lost. Reconnecting for {name}...")
+                    if on_progress:
+                        on_progress("info", name, email, "Reconnecting to SMTP...")
+                    if server:
+                        try:
+                            server.quit()
+                        except:
+                            pass
                     server = connect_smtp(sender_email, app_password)
             except Exception as conn_err:
                 log(f"Fatal: Could not establish SMTP connection: {conn_err}")
@@ -280,14 +304,14 @@ def send_emails(excel_path, sender_email, app_password, pdf_path, html_body_path
                     on_progress("sent", name, email, f"Sent to {name} <{email}>")
                 remove_contact_entry(excel_path, name, email)
                 sent_count += 1
-            except (smtplib.SMTPResponseException, smtplib.SMTPRecipientsRefused) as e:
+            except (smtplib.SMTPResponseException, smtplib.SMTPRecipientsRefused, smtplib.SMTPSenderRefused) as e:
                 err_msg = str(e)
                 log(f"SMTP Error for {name} <{email}>: {err_msg}")
                 if on_progress:
                     on_progress("failed", name, email, f"SMTP Error: {err_msg}")
                 
-                # Detect Gmail daily limits (550) or account restrictions
-                if "550" in err_msg or "limit exceeded" in err_msg.lower():
+                # Fatal SMTP errors (like 550 Daily Limit) should stop the process
+                if any(code in err_msg for code in ["550", "5.4.5", "4.7.0"]) or "limit exceeded" in err_msg.lower():
                     log("Daily sending limit reached. Stopping bulk process.")
                     break
                 failed_count += 1
